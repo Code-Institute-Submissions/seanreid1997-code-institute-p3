@@ -30,32 +30,26 @@ def add_employee():
 def remove_employee():
     """
     Function that allows user to remove an employee
-    and their details from the company spreadsheet
+    and their details from the company spreadsheet.
     """
 
 
 def view_employees():
     """
-    Function that allows user to view all current employees 
+    Function that allows user to view all current employees.
     """
+    employee = SHEET.worksheet('Employees').get_all_values()
+    staff = []
+    for staff in employee:
+        print(staff)
 
-
-def employee_details():
-    """
-    Get the name and employment details of all people currently 
-    employed by the company
-    """
-    employee = SHEET.worksheet('Employees')
-    for x in employee.get_all_values():
-        if x == "Alim":
-            return x
-    print(employee.row_values(4))  
- 
 
 def main():
     """
-    Runs all functions in the program
+    Runs all functions in the program.
     """
-    
+    options()
 
 
+#main()
+view_employees()
