@@ -88,3 +88,19 @@ The website was tested on the browsers via:
 <li>Microsoft Edge</li>
 <li>Firefox</li>
 </ul>
+
+## Bugs
+
+
+| **Bugs** | **Fixes** |
+| -------- | --------- |
+|          |           |
+
+## Deployment
+
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
