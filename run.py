@@ -10,8 +10,24 @@ SCOPE = [
 CREDS = Credentials.from_service_account_file('creds.json')
 SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
-SHEET = GSPREAD_CLIENT.open("Sean's Company ltd")
+SHEET = GSPREAD_CLIENT.open("Tech Company ltd")
 
-sales = SHEET.worksheet('Sheet4')
-data = sales.get_all_values()
-print(data)
+
+def employee_details():
+    """
+    Get the name and employment details of all people currently employed by the company
+    """
+    employee = SHEET.worksheet('Employees')
+    for x in employee.get_all_values():
+        if x == "Alim":
+            return x
+    print(employee.row_values(4))  
+ 
+
+def main():
+    """
+    Runs all functions in the program
+    """
+    
+
+
