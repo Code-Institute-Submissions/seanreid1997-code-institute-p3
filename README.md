@@ -104,3 +104,18 @@ The website was tested on the browsers via:
 <li></li>
 <li></li>
 </ul>
+
+## Credits
+
+### Code Institute
+
+<ul>
+<li></li>
+<li></li>
+</ul>
+
+## Acknowledgements
+
+ <ul>
+ <li></li>
+ </ul>
