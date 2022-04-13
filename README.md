@@ -9,6 +9,23 @@
 
 This is an automation designed to view and alter information retrieved from the company's database via spreadsheet.
 
+### Languages
+
+<ul>
+<li>Python</li>
+
+### Frameworks and Tools
+
+<ul>
+<li></li>
+<li></li>
+<li>Git</li>
+<li>Github</li>
+<li>Gitpod</li>
+<li>Google Sheets API</li>
+<li>Google Sheets</li>
+</ul>
+
 ### Features
 
 <ul>
@@ -49,5 +66,7 @@ This is an automation designed to view and alter information retrieved from the 
 <img src="#">
 </details>
 </ul>
+
+
 
 ### Testing
