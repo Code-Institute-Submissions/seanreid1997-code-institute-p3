@@ -12,6 +12,26 @@ SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open("Tech Company ltd")
 
+def options():
+    """
+    Provides options to the user 
+    and then calls the funtion relevant to the answer given by user.
+    """
+
+
+def add_user():
+    """
+    Function that enables user to add an employee
+    and their details to the compamy spreadsheet.
+    """
+
+
+def remove_user():
+    """
+    Function that allows user to remove an employee
+    and their details from the company spreadsheet
+    """
+
 
 def employee_details():
     """
