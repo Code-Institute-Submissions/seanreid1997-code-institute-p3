@@ -12,6 +12,7 @@ SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open("Tech Company ltd")
 
+
 def options():
     """
     Provides options to the user 
@@ -19,23 +20,30 @@ def options():
     """
 
 
-def add_user():
+def add_employee():
     """
     Function that enables user to add an employee
     and their details to the compamy spreadsheet.
     """
 
 
-def remove_user():
+def remove_employee():
     """
     Function that allows user to remove an employee
     and their details from the company spreadsheet
     """
 
 
+def view_employees():
+    """
+    Function that allows user to view all current employees 
+    """
+
+
 def employee_details():
     """
-    Get the name and employment details of all people currently employed by the company
+    Get the name and employment details of all people currently 
+    employed by the company
     """
     employee = SHEET.worksheet('Employees')
     for x in employee.get_all_values():
