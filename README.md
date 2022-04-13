@@ -70,3 +70,21 @@ This is an automation designed to view and alter information retrieved from the 
 
 
 ### Testing
+
+### Validation
+
+<ul>
+<li>Python code was tested via The PEP8 Python Validator.</li>
+<details><summary>Python</summary>
+<img src="#">
+</details>
+</ul>
+
+### Browser Compatibility
+
+The website was tested on the browsers via:
+<ul>
+<li>Google Chrome</li>
+<li>Microsoft Edge</li>
+<li>Firefox</li>
+</ul>
