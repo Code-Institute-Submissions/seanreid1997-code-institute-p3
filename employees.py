@@ -67,6 +67,7 @@ def view_employees():
     """
     Function that allows user to view all current employees.
     """
+    SHEET.worksheet('Employees').delete_row(1)
     employee = SHEET.worksheet('Employees').get_all_values()
     staff = []
     for staff in employee:

@@ -28,13 +28,14 @@
 ### User Goals
 
 <ul>
-<li></li>
+<li>User should be able view and change data on the company spreadsheets.</li>
 </ul>
 
 ### Site Owner Goals
 
 <ul>
-<li></li>
+<li>I want users to be able to view to the relevant data.</li>
+<li>I want users to be able to add and/or remove data.</li>
 </ul>
 
 ## User Experience
@@ -42,7 +43,7 @@
 ### Targeted Audience
 
 <ul>
-<li></li>
+<li>Authorised users who need analyse company data for review.</li>
 </ul>
 
 ### User Requirements and Expectations
@@ -59,7 +60,7 @@
 
 #### As A First Time User:
 
-1. 
+1. As a user I want to be able login/out.
 2. 
 3. 
 4. 
@@ -76,10 +77,10 @@
 
 #### As A Site Owner:
 
-12. 
-13. 
-14. 
-15. 
+12. I want the program to require authorisation before it begins.
+13. I want users to interact with the program hasslefree.
+14. I want users to receive error messages and provide solutions.
+15. I want the program to return to the start once users have finished.
 
 ## Description
 
@@ -195,3 +196,5 @@ The website was tested on the browsers via:
  <ul>
  <li></li>
  </ul>
+
+ [Return to top](#Tech Company Ltd Database)
