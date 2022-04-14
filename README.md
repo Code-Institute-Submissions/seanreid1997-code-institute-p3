@@ -13,7 +13,8 @@
     1. [Targeted Audience](#targeted-audience)
     2. [User Requirements and Expectations](#user-requirements-and-expectations)
     3. [User Stories](#user-stories)
-3. [Technologies Used](#technologies-used)
+3. [Design](#design)
+4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks and Tools](#frameworks-and-tools)
 5. [Features](#features)
@@ -56,9 +57,9 @@
 <li></li>
 </ul>
 
-### User Stories
+## User Stories
 
-#### As A First Time User:
+### As A First Time User:
 
 1. As a user I expect the program to be secure.
 2. I want to be able register my login credentials.
@@ -68,13 +69,13 @@
 6. I want to be able retrieve pre-caluculated financial data.
 7. 
 
-#### As A Returning User:
+### As A Returning User:
 
 8. I expect to be able to login using my pre-registered credentials.
 9. I expect the program to work the same regardless of browser or device.
 10. 
 
-#### As A Site Owner:
+### As A Site Owner:
 
 11. I want the program to be protected and require authorisation before it begins.
 12. I want users to be able to manipulate spreadsheet data. 
@@ -90,22 +91,24 @@
 <li></li>
 </ul>
 
-## Description
+### Description
 
 This is an automation designed to view and alter information retrieved from the company's database via spreadsheet.
+
+## Design
+
+### Flowchart
+<details><summary></summary>
+<img src="#">
+</details>
+
+## Technologies Used
 
 ### Languages
 
 <ul>
 <li>Python</li>
 </ul>
-
-### Design
-
-#### Flowchart
-<details><summary></summary>
-<img src="#">
-</details>
 
 ### Frameworks and Tools
 
@@ -119,7 +122,7 @@ This is an automation designed to view and alter information retrieved from the 
 <li>Google Sheets</li>
 </ul>
 
-### Features
+## Features
 
 <ul>
 <li>As the program begins you will be given a choice on what services you would like to use.</li>
@@ -162,7 +165,7 @@ This is an automation designed to view and alter information retrieved from the 
 
 
 
-### Testing
+## Testing
 
 ### Validation
 
@@ -182,7 +185,7 @@ The website was tested on the browsers via:
 <li>Firefox</li>
 </ul>
 
-### Testing User Stories
+## Testing User Stories
 
 1. As a user I expect the program to be secure.
 
