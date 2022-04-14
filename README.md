@@ -194,7 +194,8 @@ The website was tested on the browsers via:
 ## Acknowledgements
 
  <ul>
- <li></li>
+ <li>I'd like to thank My mentor Mo Shami for his excellent mentorship.</li>
+ <li>I'd also like to thank the Code Institute staff for their continued support.</li>
  </ul>
 
  [Return To Top](#Tech-Company-Ltd-Database)
