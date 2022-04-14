@@ -60,24 +60,24 @@
 
 #### As A First Time User:
 
-1. As a user I want to be able login/out.
-2. 
-3. 
-4. 
-5. 
-6. 
+1. As a user I expect the program to be secure.
+2. I want to be able register my login credentials.
+3. I want to be able to view data on the company spreadsheet.
+4. I want to be able to add data on the company spreadsheet.
+5. I want to be able to remove data on the company spreadsheet.
+6. I want to be able retrieve pre-caluculated financial data.
 7. 
 
 #### As A Returning User:
 
-8. 
-9. 
+8. I expect to be able to login using my pre-registered credentials.
+9. I expect the program to work the same regardless of browser or device.
 10. 
-11. 
 
 #### As A Site Owner:
 
-12. I want the program to require authorisation before it begins.
+11. I want the program to be protected and require authorisation before it begins.
+12. I want users to be able to manipulate spreadsheet data. 
 13. I want users to interact with the program hasslefree.
 14. I want users to receive error messages and provide solutions.
 15. I want the program to loop to the start once users have finished.
@@ -183,7 +183,133 @@ The website was tested on the browsers via:
 
 ### Testing User Stories
 
-1. 
+1. As a user I expect the program to be secure.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary></summary>
+<img src="#">
+</details>
+
+2. I want to be able register my login credentials.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary></summary>
+<img src="#">
+</details>
+
+3. I want to be able to view data on the company spreadsheet.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary></summary>
+<img src="#">
+</details>
+
+4. I want to be able to add data on the company spreadsheet.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary></summary>
+<img src="#">
+</details>
+
+5. I want to be able to remove data on the company spreadsheet.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary></summary>
+<img src="#">
+</details>
+
+6. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary></summary>
+<img src="#">
+</details>
+
+7. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary></summary>
+<img src="#">
+</details>
+
+8. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary></summary>
+<img src="#">
+</details>
+
+9. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary></summary>
+<img src="#">
+</details>
+
+10. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary></summary>
+<img src="#">
+</details>
+
+11. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary></summary>
+<img src="#">
+</details>
+
+12. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary></summary>
+<img src="#">
+</details>
+
+13. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary></summary>
+<img src="#">
+</details>
+
+14. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary></summary>
+<img src="#">
+</details>
+
+15. 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
