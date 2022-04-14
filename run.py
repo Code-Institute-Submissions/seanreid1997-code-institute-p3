@@ -56,6 +56,11 @@ def remove_employee():
     Function that allows user to remove an employee
     and their details from the company spreadsheet.
     """
+    remove_staff = input('Please enter employee details(name,job,income):\n')
+    print("Removing Employee data. Please wait...\n")
+    worksheet_to_update = SHEET.worksheet('Employees')
+    worksheet_to_update.delete_rows(remove_staff)
+    print("Employee data successfully added.\n")
 
 
 def view_employees():
