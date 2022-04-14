@@ -15,7 +15,7 @@ SHEET = GSPREAD_CLIENT.open("Tech Company ltd")
 
 def options():
     """
-    Provides options to the user 
+    Provides options to the user
     and then calls the funtion relevant to the answer given by user.
     """
     user_input_view = input('Would you like to view our list of employees?\n')

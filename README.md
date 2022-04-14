@@ -156,8 +156,6 @@ This is an automation designed to view and alter information retrieved from the 
 
 ### Testing
 
-### User Story Testing
-
 ### Validation
 
 <ul>
@@ -175,6 +173,17 @@ The website was tested on the browsers via:
 <li>Microsoft Edge</li>
 <li>Firefox</li>
 </ul>
+
+### Testing User Stories
+
+1. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary></summary>
+<img src="#">
+</details>
 
 ## Bugs
 
