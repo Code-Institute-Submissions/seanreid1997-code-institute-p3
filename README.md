@@ -197,4 +197,4 @@ The website was tested on the browsers via:
  <li></li>
  </ul>
 
- [Return to top](#Tech Company Ltd Database)
+ [Return To Top](#Tech-Company-Ltd-Database)
