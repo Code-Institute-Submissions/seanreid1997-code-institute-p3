@@ -43,7 +43,12 @@ def add_employee():
     Function that enables user to add an employee
     and their details to the compamy spreadsheet.
     """
-    
+    add_staff = input('Please enter employee details(name,job,income):\n')
+    staff_data = add_staff.split(',')
+    print("Updating Employee data. Please wait...\n")
+    worksheet_to_update = SHEET.worksheet('Employees')
+    worksheet_to_update.append_row(staff_data)
+    print("Employee data successfully added.\n")
 
 
 def remove_employee():
