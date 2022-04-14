@@ -98,6 +98,7 @@ This is an automation designed to view and alter information retrieved from the 
 
 <ul>
 <li>Python</li>
+</ul>
 
 ### Design
 
