@@ -99,6 +99,13 @@ This is an automation designed to view and alter information retrieved from the 
 <ul>
 <li>Python</li>
 
+### Design
+
+#### Flowchart
+<details><summary></summary>
+<img src="#">
+</details>
+
 ### Frameworks and Tools
 
 <ul>
