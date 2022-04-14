@@ -14,6 +14,8 @@
     2. [User Requirements and Expectations](#user-requirements-and-expectations)
     3. [User Stories](#user-stories)
 3. [Design](#design)
+    1. [Flowchart](#flowchart)
+    2. [User Manual](#user-manual)
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks and Tools](#frameworks-and-tools)
@@ -83,14 +85,6 @@
 14. I want users to receive error messages and provide solutions.
 15. I want the program to loop to the start once users have finished.
 
-## User Manual
-
-<ul>
-<li>The program runs very simply.</li>
-<li>Throughout the program you'll mainly be required to answer either "yes" or "no" to progress.</li>
-<li></li>
-</ul>
-
 ### Description
 
 This is an automation designed to view and alter information retrieved from the company's database via spreadsheet.
@@ -100,6 +94,16 @@ This is an automation designed to view and alter information retrieved from the 
 ### Flowchart
 <details><summary></summary>
 <img src="#">
+</details>
+
+### User Manual
+
+<details><summary>Walkthrough</summary>
+<ul>
+<li>The program runs very simply.</li>
+<li>Throughout the program you'll mainly be required to answer either "yes" or "no" to progress.</li>
+<li></li>
+</ul>
 </details>
 
 ## Technologies Used
