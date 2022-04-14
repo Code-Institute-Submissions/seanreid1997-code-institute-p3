@@ -80,7 +80,15 @@
 12. I want the program to require authorisation before it begins.
 13. I want users to interact with the program hasslefree.
 14. I want users to receive error messages and provide solutions.
-15. I want the program to return to the start once users have finished.
+15. I want the program to loop to the start once users have finished.
+
+## User Manual
+
+<ul>
+<li>The program runs very simply.</li>
+<li>Throughout the program you'll mainly be required to answer either "yes" or "no" to progress.</li>
+<li></li>
+</ul>
 
 ## Description
 
@@ -147,6 +155,8 @@ This is an automation designed to view and alter information retrieved from the 
 
 
 ### Testing
+
+### User Story Testing
 
 ### Validation
 
