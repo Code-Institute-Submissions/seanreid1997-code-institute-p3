@@ -228,7 +228,7 @@ The website was tested on the browsers via:
 <img src="#">
 </details>
 
-6. 
+6. I want to be able retrieve pre-caluculated financial data.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -246,7 +246,7 @@ The website was tested on the browsers via:
 <img src="#">
 </details>
 
-8. 
+8. I expect to be able to login using my pre-registered credentials.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -255,7 +255,7 @@ The website was tested on the browsers via:
 <img src="#">
 </details>
 
-9. 
+9. I expect the program to work the same regardless of browser or device.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -273,7 +273,7 @@ The website was tested on the browsers via:
 <img src="#">
 </details>
 
-11. 
+11. I want the program to be protected and require authorisation before it begins.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -282,7 +282,7 @@ The website was tested on the browsers via:
 <img src="#">
 </details>
 
-12. 
+12. I want users to be able to manipulate spreadsheet data. 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -291,7 +291,7 @@ The website was tested on the browsers via:
 <img src="#">
 </details>
 
-13. 
+13. I want users to interact with the program hasslefree.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -300,7 +300,7 @@ The website was tested on the browsers via:
 <img src="#">
 </details>
 
-14. 
+14. I want users to receive error messages and provide solutions.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -309,7 +309,7 @@ The website was tested on the browsers via:
 <img src="#">
 </details>
 
-15. 
+15. I want the program to loop to the start once users have finished.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
