@@ -348,7 +348,13 @@ The website was tested on the browsers via:
 <li>In the "KEY" textbox, type in "CREDS"</li>
 <li>Return to your workspace and copy all the code on the "creds.json" file.</li>
 <li>Return to your heroku page.</li>
-<li>In the Value textbox of "Config Vars" paste the code from your "creds.json" file. </li>
+<li>In the Value textbox of "Config Vars" paste the code from your "creds.json" file and save.</li>
+<li>Next scroll down to buildpacks and select "Add buildpack</li>
+<li>Select and save "Python" and "Nodejs" respectively.</li>
+<li>Return to the top and select the "Deploy" tab.</li>
+<li>Select "Connect to Github" and then search for you repository.</li>
+<li>Next scroll down and select the "Deploy branch" button and wait a few minutes.</li>
+<li>Select view and yoiu will be redirected to your app.</li>
 </ul>
 
 ## Credits
