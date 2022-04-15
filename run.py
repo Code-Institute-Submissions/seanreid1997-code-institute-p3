@@ -36,17 +36,19 @@ def register():
     Function to allow user to register their login
     credentials
     """
-    user_registered = input('Do you have an account?\n')
+    user_registered = input('\nDo you have an account?\n')
     update_register = SHEET.worksheet('Login')
-    time.sleep(1)
+    time.sleep(0.3)
     if user_registered == 'yes':
         login()
     else:
-        user = input('Please enter your username:\n').capitalize()
+        user = input('Please enter your username:\n')
         user_password = input('Please enter your password:\n')
-        new_user = user, user_password
+        new_user = user + ',', user_password
+        print('\nRegistering your details...\n')
         update_register.append_row(new_user)
-        print('User successfully added')
+        print('\nUser successfully added')
+        time.sleep(0.2)
 
 
 def login():
@@ -54,34 +56,34 @@ def login():
     Function that collects user login credentials
     and compares them to credentials on spreadsheet
     """
-    time.sleep(0.4)
+    time.sleep(0.3)
     authorise = SHEET.worksheet('Login')
     verify_name = authorise.col_values(1)
     verify_password = authorise.col_values(2)
 
     while True:
-        username = input('\nUsername:\n').capitalize()
+        username = input('\nUsername:\n')
         if username in verify_name:
             print('\nUsername is correct\n')
         else:
-            print('Your username is incorrect. Please try again!')
+            print('\nYour username is incorrect. Please try again!\n')
 
         password = input('Password:\n')
         if password in verify_password:
             print('\nPassword is correct')
             print('Please wait...')
             time.sleep(3)
-            print('Successfully logged in!\n')
+            print('You successfully logged in!\n')
             return True
         else:
-            print('Your password is incorrect. Please try again!')
+            print('\nYour password is incorrect. Please try again!\n')
 
 
 def clear_console():
     """
     Clears the console
     """
-    time.sleep(2)
+    time.sleep(1)
     command = 'clear'
     if os.name in ('nt', 'dos'):
         command = 'cls'
@@ -93,20 +95,25 @@ def menu():
     Function that provides a menu for users
     to procede.
     """
-    time.sleep(0.5)
-    print('Choose from the following:\n')
+    clear_console()
+    time.sleep(0.3)
+    print('Menu')
     print('1.Manage employee worksheet')
     print('2.Manage finance worksheet')
     print('3.Manage spreadsheet')
     user_choice = input('\n')
+    
     if user_choice == '1':
+        clear_console()
         options()
         exit_program()
 
     elif user_choice == '2':
+        clear_console()
         exit_program()
    
     elif user_choice == '3':
+        clear_console()
         manage_spreadsheet()
         exit_program()
 

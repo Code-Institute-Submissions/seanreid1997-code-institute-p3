@@ -25,21 +25,21 @@ def options():
     if user_input_view == 'yes':
         print('Retrieving list of employees. Please wait...\n')
         view_employees()
-        time.sleep(0.5)
+        time.sleep(0.3)
     else:
         pass
 
     user_input_add = input('\nWould you like to add an employee?\n')
     if user_input_add == 'yes':
         add_employee()
-        time.sleep(0.5)
+        time.sleep(0.3)
     else:
         pass
 
     user_input_remove = input('\nWould you like to remove an employee?\n')
     if user_input_remove == 'yes':
         remove_employee()
-        time.sleep(0.5)
+        time.sleep(0.3)
     else:
         print('\nThank you for using our services.\n')
         time.sleep(0.5)
@@ -110,14 +110,16 @@ def manage_spreadsheet():
     Function that allows user to manage all
     worksheets in spreadsheets.
     """
-    user_input_create = input('Would you like to create a worksheet?\n')
+    user_input_create = input('\nWould you like to create a worksheet?\n')
     if user_input_create == 'yes':
         create_worksheet()
+        time.sleep(0.3)
     else:
         pass
 
-    user_input_delete = input('Would you like to delete a worksheet?\n')
+    user_input_delete = input('\nWould you like to delete a worksheet?\n')
     if user_input_delete == 'yes':
         delete_worksheet()
+        time.sleep(0.3)
     
     print('\nThank you for using our services.\n')
