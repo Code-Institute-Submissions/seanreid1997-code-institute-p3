@@ -42,10 +42,12 @@ def register():
     if user_registered == 'yes':
         login()
     else:
-        user = input('Please enter your username:\n')
+        user = input('\nPlease enter your username:\n')
+        time.sleep(0.19)
         user_password = input('Please enter your password:\n')
-        new_user = user + ',', user_password
+        new_user = user, user_password
         print('\nRegistering your details...\n')
+        time.sleep(0.2)
         update_register.append_row(new_user)
         print('\nUser successfully added')
         time.sleep(0.2)
