@@ -3,6 +3,7 @@ import time
 import gspread
 from google.oauth2.service_account import Credentials
 from employees import options
+from employees import manage_spreadsheet
 
 SCOPE = [
     "https://www.googleapis.com/auth/spreadsheets",
@@ -92,14 +93,22 @@ def menu():
     Function that provides a menu for users
     to procede.
     """
-    time.sleep(1)
+    time.sleep(0.5)
     print('Choose from the following:\n')
-    user_choice = print('1.Manage employee worksheet')
-    user_choice2 = print('2.Manage finance worksheet')
-    user_choice3 = print('3.Manage spreadsheet')
+    print('1.Manage employee worksheet')
+    print('2.Manage finance worksheet')
+    print('3.Manage spreadsheet')
+    user_choice = input('\n')
+    if user_choice == '1':
+        options()
+        exit_program()
 
-    if 
-    input('\n')
+    elif user_choice == '2':
+        exit_program()
+   
+    elif user_choice == '3':
+        manage_spreadsheet()
+        exit_program()
 
 
 def exit_program():
@@ -120,7 +129,6 @@ def main():
     register()
     clear_console()
     menu()
-    options()
     exit_program()
 
 

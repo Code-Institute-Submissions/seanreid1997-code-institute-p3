@@ -42,6 +42,7 @@ def options():
         time.sleep(0.5)
     else:
         print('\nThank you for using our services.\n')
+        time.sleep(0.5)
 
 
 def add_employee():
@@ -118,4 +119,5 @@ def manage_spreadsheet():
     user_input_delete = input('Would you like to delete a worksheet?\n')
     if user_input_delete == 'yes':
         delete_worksheet()
-        print('\nThank you for using our services.\n')
+    
+    print('\nThank you for using our services.\n')
