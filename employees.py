@@ -18,6 +18,8 @@ def options():
     Provides options to the user
     and then calls the funtion relevant to the answer given by user.
     """
+    print('\nPlease answer "yes" or "no" to the following questions.\n')
+
     user_input_view = input('Would you like to view our list of employees?\n')
     if user_input_view == 'yes':
         print('Retrieving list of employees. Please wait...\n')
@@ -25,17 +27,17 @@ def options():
     else:
         pass
 
-    user_input_add = input('Would you like to add an employee?\n')
+    user_input_add = input('\nWould you like to add an employee?\n')
     if user_input_add == 'yes':
         add_employee()
     else:
         pass
 
-    user_input_remove = input('Would you like to remove an employee?\n')
+    user_input_remove = input('\nWould you like to remove an employee?\n')
     if user_input_remove == 'yes':
         remove_employee()
     else:
-        print('Thank you for using our services.\n')
+        print('\nThank you for using our services.\n')
 
 
 def add_employee():
@@ -72,3 +74,21 @@ def view_employees():
     staff = []
     for staff in employee:
         print(staff)
+
+
+def create_worksheet():
+    """
+    Functions that create a new worksheet
+    """
+    user_input_create = input('Would you like to create a worksheet?\n')
+    wsheet_name = input('Please enter the worksheet name:\n')
+    wsheet_col = input('Please enter the number of columns:\n')
+    wsheet_rows = input('Please enter the number of rows:\n')
+
+    if user_input_create == 'yes':
+        new_worksheet = SHEET.add_worksheet(wsheet_name, wsheet_rows,
+                                            wsheet_col)
+    else:
+        print('\nThank you for using our services.\n')
+
+    return new_worksheet
