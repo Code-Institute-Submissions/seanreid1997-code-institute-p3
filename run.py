@@ -4,6 +4,7 @@ import gspread
 from google.oauth2.service_account import Credentials
 from employees import options
 from employees import manage_spreadsheet
+from finance import get_finance_data
 
 SCOPE = [
     "https://www.googleapis.com/auth/spreadsheets",
@@ -112,6 +113,7 @@ def menu():
 
     elif user_choice == '2':
         clear_console()
+        get_finance_data()
         exit_program()
    
     elif user_choice == '3':
