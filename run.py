@@ -1,3 +1,4 @@
+import time
 import gspread
 from google.oauth2.service_account import Credentials
 from employees import options
@@ -35,20 +36,26 @@ def login():
     """
     authorise = SHEET.worksheet('Login')
     verify_name = authorise.col_values(1)
-    verify_password = authorise.row_values(2)
+    verify_password = authorise.col_values(2)
 
     while True:
         username = input('\nUsername:\n')
         if username in verify_name:
-            password = input('Password:\n')
-            if password in verify_password:
-                print('Successfully logged in!\n')
-                print('Choose from the following:\n')
-                return True
-            else:
-                print('Your password is incorrect. Please try again!')
+            print('\nUsername is correct\n')
         else:
             print('Your username is incorrect. Please try again!')
+
+        password = input('Password:\n')
+        if password in verify_password:
+            print('\nPassword is correct')
+            print('Please wait...')
+            time.sleep(3)
+            print('Successfully logged in!\n')
+            time.sleep(2)
+            print('Choose from the following:\n')
+            return True
+        else:
+            print('Your password is incorrect. Please try again!')
 
 
 def menu():
