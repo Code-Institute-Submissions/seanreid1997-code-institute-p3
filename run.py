@@ -35,12 +35,15 @@ def register():
     Function to allow user to register their login
     credentials
     """
-    user_answer = input('Do you have an account?\n')
+    user_registered = input('Do you have an account?\n')
+    update_register = SHEET.worksheet('Login')
     time.sleep(1)
-    if user_answer == 'yes':
+    if user_registered == 'yes':
         login()
     else:
-        
+        user = input('Please enter your username:\n').capitalize()
+        new_user = user.split(',')
+        update_register.append_row(new_user)
 
 
 def login():
@@ -54,7 +57,7 @@ def login():
     verify_password = authorise.col_values(2)
 
     while True:
-        username = input('\nUsername:\n')
+        username = input('\nUsername:\n').capitalize()
         if username in verify_name:
             print('\nUsername is correct\n')
         else:
