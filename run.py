@@ -76,8 +76,9 @@ def menu():
     """
     time.sleep(2)
     print('Choose from the following:\n')
-    print('1.Manage worksheet')
-    print('2.Manage spreadsheet')
+    print('1.Manage employee worksheet')
+    print('2.Manage finance worksheet')
+    print('3.Manage spreadsheet')
     input('\n')
 
 
