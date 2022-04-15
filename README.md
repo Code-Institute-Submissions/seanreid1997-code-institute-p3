@@ -348,7 +348,7 @@ The website was tested on the browsers via:
 <li>In the "KEY" textbox, type in "CREDS"</li>
 <li>Return to your workspace and copy all the code on the "creds.json" file.</li>
 <li>Return to your heroku page.</li>
-<li>In the Value textbox of "Config Vars" paste the code from your "creds.json" file </li>
+<li>In the Value textbox of "Config Vars" paste the code from your "creds.json" file. </li>
 </ul>
 
 ## Credits
