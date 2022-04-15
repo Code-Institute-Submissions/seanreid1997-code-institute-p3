@@ -114,7 +114,16 @@ def menu():
     elif user_choice == '2':
         clear_console()
         get_finance_data()
-        exit_program()
+        return_menu = input('\n')
+        return_home = input('\n')
+        print('1.Return to menu')
+        print('2.Return to home')
+
+        if return_menu == '1':
+            menu()
+
+        if return_home == '2':
+            exit_program()
    
     elif user_choice == '3':
         clear_console()

@@ -1,7 +1,5 @@
 import gspread
 from google.oauth2.service_account import Credentials
-from run import main
-from run import menu
 
 SCOPE = [
     "https://www.googleapis.com/auth/spreadsheets",
@@ -24,27 +22,12 @@ def get_finance_data():
     print('1.View all financial data')
     print('2.View last entry')
     finance_user_input = input('\n')
-    return_menu = input('\n')
-    return_home = input('\n')
 
     if finance_user_input == '1':
-        data = financial_data.get_all_values()
-        print(data)
-        print('1.Return to menu')
-        print('2.Return to home')
-
-        if return_menu == '1':
-            menu()
-
-        if return_home == '2':
-            main()
-
-    if finance_user_input == '2':
-        last_row_data = [financial_data.get_all_values()][-1]
-        print(last_row_data)
-
-        if return_menu == '1':
-            menu()
-
-        if return_home == '2':
-            main()
+        SHEET.worksheet('Finance')
+        statement = SHEET.worksheet('Finance').get_all_values()
+        money_in = profit.col_values(1)
+        money_out = profit.col_values(2)
+        profit_data = [f"In: {} Out: {}"]
+        for profit_data in statement:
+            print(profit_data)
