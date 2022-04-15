@@ -51,8 +51,6 @@ def login():
             print('Please wait...')
             time.sleep(3)
             print('Successfully logged in!\n')
-            time.sleep(2)
-            print('Choose from the following:\n')
             return True
         else:
             print('Your password is incorrect. Please try again!')
@@ -63,6 +61,11 @@ def menu():
     Function that provides a menu for users
     to procede.
     """
+    time.sleep(2)
+    print('Choose from the following:\n')
+    print('1.Manage worksheet')
+    print('2.Manage spreadsheet')
+    input('\n')
 
 
 def main():
@@ -71,6 +74,7 @@ def main():
     """
     welcome_message()
     login()
+    menu()
     options()
   
 

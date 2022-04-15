@@ -75,14 +75,14 @@
 
 8. I expect to be able to login using my pre-registered credentials.
 9. I expect the program to work the same regardless of browser or device.
-10. 
 
 ### As A Site Owner:
 
+10. 
 11. I want the program to be protected and require authorisation before it begins.
 12. I want users to be able to manipulate spreadsheet data. 
 13. I want users to interact with the program hasslefree.
-14. I want users to receive error messages and provide solutions.
+14. I want users to receive error messages and the program to provide solutions.
 15. I want the program to loop to the start once users have finished.
 
 ### Description
@@ -331,7 +331,7 @@ The website was tested on the browsers via:
 
 | **Bugs** | **Fixes** |
 | -------- | --------- |
-|          |           |
+|   Every time the view_employees function is called it deletes a row.  | Remove delete_row gspread method from function. |
 
 ## Deployment
 

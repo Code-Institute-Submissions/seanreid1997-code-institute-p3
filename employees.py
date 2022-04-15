@@ -1,3 +1,4 @@
+import time
 import gspread
 from google.oauth2.service_account import Credentials
 
@@ -24,18 +25,21 @@ def options():
     if user_input_view == 'yes':
         print('Retrieving list of employees. Please wait...\n')
         view_employees()
+        time.sleep(0.5)
     else:
         pass
 
     user_input_add = input('\nWould you like to add an employee?\n')
     if user_input_add == 'yes':
         add_employee()
+        time.sleep(0.5)
     else:
         pass
 
     user_input_remove = input('\nWould you like to remove an employee?\n')
     if user_input_remove == 'yes':
         remove_employee()
+        time.sleep(0.5)
     else:
         print('\nThank you for using our services.\n')
 
@@ -69,7 +73,8 @@ def remove_employee():
     Function that allows user to remove an employee
     and their details from the company spreadsheet.
     """
-    remove_staff = input('Please enter employee details(name,job,income):\n')
+    remove_staff = input('Please enter employee details(Name, Job title, \
+                                                        Income):\n')
     print("Removing Employee data. Please wait...\n")
     worksheet_to_update = SHEET.worksheet('Employees')
     worksheet_to_update.delete_rows(remove_staff)
@@ -80,7 +85,7 @@ def view_employees():
     """
     Function that allows user to view all current employees.
     """
-    SHEET.worksheet('Employees').delete_row(1)
+    SHEET.worksheet('Employees')
     employee = SHEET.worksheet('Employees').get_all_values()
     staff = []
     for staff in employee:
