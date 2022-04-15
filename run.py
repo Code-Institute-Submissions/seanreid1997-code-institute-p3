@@ -1,7 +1,17 @@
+import gspread
+from google.oauth2.service_account import Credentials
 from employees import options
-from employees import create_worksheet
 
+SCOPE = [
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive.file",
+    "https://www.googleapis.com/auth/drive"
+    ]
 
+CREDS = Credentials.from_service_account_file('creds.json')
+SCOPED_CREDS = CREDS.with_scopes(SCOPE)
+GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
+SHEET = GSPREAD_CLIENT.open("Tech Company ltd")
 BORDER = '_' * 50
 WELCOME = '\nWelcome to The Tech Company data service\n'
 
@@ -13,7 +23,7 @@ def welcome_message():
     """
     print(BORDER)
     print(BORDER)
-    print(WELCOME.upper())
+    print(WELCOME.center(20).upper())
     print(BORDER)
     print(BORDER)
 
@@ -23,8 +33,22 @@ def login():
     Function that collects user login credentials
     and compares them to credentials on spreadsheet
     """
-    input('\nEnter Username:\n')
-    input('Enter Password\n')
+    authorise = SHEET.worksheet('Login')
+    verify_name = authorise.col_values(1)
+    verify_password = authorise.row_values(2)
+
+    while True:
+        username = input('\nUsername:\n')
+        if username in verify_name:
+            password = input('Password:\n')
+            if password in verify_password:
+                print('Successfully logged in!\n')
+                print('Choose from the following:\n')
+                return True
+            else:
+                print('Your password is incorrect. Please try again!')
+        else:
+            print('Your username is incorrect. Please try again!')
 
 
 def menu():
@@ -41,7 +65,6 @@ def main():
     welcome_message()
     login()
     options()
-    create_worksheet()
-    
+  
 
 main()

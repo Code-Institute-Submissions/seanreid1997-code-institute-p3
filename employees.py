@@ -39,6 +39,17 @@ def options():
     else:
         print('\nThank you for using our services.\n')
 
+    user_input_create = input('Would you like to create a worksheet?\n')
+    if user_input_create == 'yes':
+        create_worksheet()
+    else:
+        pass
+
+    user_input_delete = input('Would you like to delete a worksheet?\n')
+    if user_input_delete == 'yes':
+        delete_worksheet()
+        print('\nThank you for using our services.\n')
+    
 
 def add_employee():
     """
@@ -80,15 +91,21 @@ def create_worksheet():
     """
     Functions that create a new worksheet
     """
-    user_input_create = input('Would you like to create a worksheet?\n')
+    
     wsheet_name = input('Please enter the worksheet name:\n')
     wsheet_col = input('Please enter the number of columns:\n')
     wsheet_rows = input('Please enter the number of rows:\n')
+    print('\nCreating worksheet. Please wait...\n')
+    SHEET.add_worksheet(wsheet_name, wsheet_rows, wsheet_col)
+    print('Worksheet successfully created\n')
 
-    if user_input_create == 'yes':
-        new_worksheet = SHEET.add_worksheet(wsheet_name, wsheet_rows,
-                                            wsheet_col)
-    else:
-        print('\nThank you for using our services.\n')
 
-    return new_worksheet
+def delete_worksheet():
+    """
+    Function that allows user to
+    deletes selected worksheet
+    """
+    input('Please enter the worksheet name:\n')
+    print('\nDeleting worksheet. Please wait...\n')
+    SHEET.del_worksheet('bb')
+    print('worksheet has been successfully deleted.')
