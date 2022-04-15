@@ -1,5 +1,7 @@
 # Tech Company Ltd Database
 
+Developer: Sean Reid
+
 <img src="#">
 <a href=""></a>
 
@@ -339,12 +341,14 @@ The website was tested on the browsers via:
 <li>Within the terminal of your workspace enter:"pip3 freeze > requirements.txt".</li>
 <li>Commit and push these changes.</li>
 <li>Go to the Heroku website and login/create an account.</li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Click on the create app button and give it a name. </li>
+<li>Select a region and then click on the create app button.</li>
+<li>Locate and select the "Settings" tab.</li>
+<li>Locate the "Config Vars" button.</li>
+<li>In the "KEY" textbox, type in "CREDS"</li>
+<li>Return to your workspace and copy all the code on the "creds.json" file.</li>
+<li>Return to your heroku page.</li>
+<li>In the Value textbox of "Config Vars" paste the code from your "creds.json" file </li>
 </ul>
 
 ## Credits
