@@ -114,10 +114,10 @@ def menu():
     elif user_choice == '2':
         clear_console()
         get_finance_data()
-        return_menu = input('\n')
-        return_home = input('\n')
         print('1.Return to menu')
         print('2.Return to home')
+        return_menu = input('Menu\n')
+        return_home = input('Home\n')
 
         if return_menu == '1':
             menu()
