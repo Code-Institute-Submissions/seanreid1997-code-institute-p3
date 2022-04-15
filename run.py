@@ -30,6 +30,19 @@ def welcome_message():
     print(BORDER)
 
 
+def register():
+    """
+    Function to allow user to register their login
+    credentials
+    """
+    user_answer = input('Do you have an account?\n')
+    time.sleep(1)
+    if user_answer == 'yes':
+        login()
+    else:
+        
+
+
 def login():
     """
     Function that collects user login credentials
@@ -87,7 +100,7 @@ def main():
     Runs all functions in the program.
     """
     welcome_message()
-    login()
+    register()
     clear_console()
     menu()
     options()
