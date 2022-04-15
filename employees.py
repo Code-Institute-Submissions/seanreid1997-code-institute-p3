@@ -43,17 +43,6 @@ def options():
     else:
         print('\nThank you for using our services.\n')
 
-    user_input_create = input('Would you like to create a worksheet?\n')
-    if user_input_create == 'yes':
-        create_worksheet()
-    else:
-        pass
-
-    user_input_delete = input('Would you like to delete a worksheet?\n')
-    if user_input_delete == 'yes':
-        delete_worksheet()
-        print('\nThank you for using our services.\n')
-   
 
 def add_employee():
     """
@@ -113,3 +102,20 @@ def delete_worksheet():
     print('\nDeleting worksheet. Please wait...\n')
     SHEET.del_worksheet('bb')
     print('worksheet has been successfully deleted.')
+
+
+def manage_spreadsheet():
+    """
+    Function that allows user to manage all
+    worksheets in spreadsheets.
+    """
+    user_input_create = input('Would you like to create a worksheet?\n')
+    if user_input_create == 'yes':
+        create_worksheet()
+    else:
+        pass
+
+    user_input_delete = input('Would you like to delete a worksheet?\n')
+    if user_input_delete == 'yes':
+        delete_worksheet()
+        print('\nThank you for using our services.\n')

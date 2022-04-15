@@ -92,11 +92,13 @@ def menu():
     Function that provides a menu for users
     to procede.
     """
-    time.sleep(2)
+    time.sleep(1)
     print('Choose from the following:\n')
-    print('1.Manage employee worksheet')
-    print('2.Manage finance worksheet')
-    print('3.Manage spreadsheet')
+    user_choice = print('1.Manage employee worksheet')
+    user_choice2 = print('2.Manage finance worksheet')
+    user_choice3 = print('3.Manage spreadsheet')
+
+    if 
     input('\n')
 
 
