@@ -25,7 +25,7 @@ def welcome_message():
     """
     print(BORDER)
     print(BORDER)
-    print(WELCOME.center(20).upper())
+    print(WELCOME.upper())
     print(BORDER)
     print(BORDER)
 
@@ -42,8 +42,10 @@ def register():
         login()
     else:
         user = input('Please enter your username:\n').capitalize()
-        new_user = user.split(',')
+        user_password = input('Please enter your password:\n')
+        new_user = user, user_password
         update_register.append_row(new_user)
+        print('User successfully added')
 
 
 def login():
@@ -98,6 +100,16 @@ def menu():
     input('\n')
 
 
+def exit_program():
+    """
+    Function that returns program to the begining
+    once user has completed use.
+    """
+    clear_console()
+    time.sleep(1)
+    main()
+
+
 def main():
     """
     Runs all functions in the program.
@@ -107,6 +119,7 @@ def main():
     clear_console()
     menu()
     options()
-  
+    exit_program()
+
 
 main()

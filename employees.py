@@ -53,7 +53,7 @@ def options():
     if user_input_delete == 'yes':
         delete_worksheet()
         print('\nThank you for using our services.\n')
-    
+   
 
 def add_employee():
     """
@@ -96,7 +96,6 @@ def create_worksheet():
     """
     Functions that create a new worksheet
     """
-    
     wsheet_name = input('Please enter the worksheet name:\n')
     wsheet_col = input('Please enter the number of columns:\n')
     wsheet_rows = input('Please enter the number of rows:\n')
