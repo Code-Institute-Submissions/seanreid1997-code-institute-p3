@@ -66,8 +66,8 @@
 1. As a user I expect the program to be secure.
 2. I want to be able register my login credentials.
 3. I want to be able to view data on the company spreadsheet.
-4. I want to be able to add data on the company spreadsheet.
-5. I want to be able to remove data on the company spreadsheet.
+4. I want to be able to manipulate data on the company spreadsheet.
+5. I want to be able to add and remove worksheets.
 6. I want to be able retrieve pre-caluculated financial data.
 7. 
 
@@ -78,7 +78,7 @@
 
 ### As A Site Owner:
 
-10. 
+10. I want the program to be well spaced in terms of time managment.
 11. I want the program to be protected and require authorisation before it begins.
 12. I want users to be able to manipulate spreadsheet data. 
 13. I want users to interact with the program hasslefree.

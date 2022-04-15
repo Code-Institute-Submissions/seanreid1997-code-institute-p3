@@ -1,3 +1,4 @@
+import os
 import time
 import gspread
 from google.oauth2.service_account import Credentials
@@ -34,6 +35,7 @@ def login():
     Function that collects user login credentials
     and compares them to credentials on spreadsheet
     """
+    time.sleep(0.4)
     authorise = SHEET.worksheet('Login')
     verify_name = authorise.col_values(1)
     verify_password = authorise.col_values(2)
@@ -56,6 +58,17 @@ def login():
             print('Your password is incorrect. Please try again!')
 
 
+def clear_console():
+    """
+    Clears the console
+    """
+    time.sleep(2)
+    command = 'clear'
+    if os.name in ('nt', 'dos'):
+        command = 'cls'
+    os.system(command)
+
+
 def menu():
     """
     Function that provides a menu for users
@@ -74,6 +87,7 @@ def main():
     """
     welcome_message()
     login()
+    clear_console()
     menu()
     options()
   
