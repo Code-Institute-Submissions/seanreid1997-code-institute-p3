@@ -336,6 +336,11 @@ The website was tested on the browsers via:
 ## Deployment
 
 <ul>
+<li>Within the terminal of your workspace enter:"pip3 freeze > requirements.txt".</li>
+<li>Commit and push these changes.</li>
+<li>Go to the Heroku website and login/create an account.</li>
+<li></li>
+<li></li>
 <li></li>
 <li></li>
 <li></li>
