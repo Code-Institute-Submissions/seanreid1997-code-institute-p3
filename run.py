@@ -114,15 +114,15 @@ def menu():
     elif user_choice == '2':
         clear_console()
         get_finance_data()
-        print('1.Return to menu')
+  
+        print('\n1.Return to menu')
         print('2.Return to home')
-        return_menu = input('Menu\n')
-        return_home = input('Home\n')
+        user_return = input('\n')
 
-        if return_menu == '1':
+        if user_return == '1':
             menu()
-
-        if return_home == '2':
+        
+        if user_return == '2':
             exit_program()
    
     elif user_choice == '3':

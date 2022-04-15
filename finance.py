@@ -24,10 +24,6 @@ def get_finance_data():
     finance_user_input = input('\n')
 
     if finance_user_input == '1':
-        statement = SHEET.worksheet('Finance')
-        money_in = statement.col_values(1)
-        money_out = statement.col_values(2)
         full_statement = SHEET.worksheet('Finance').get_all_values()
-        data = print(f"In: {money_in} Out: {money_out}")
         for data in full_statement:
             print(data)
