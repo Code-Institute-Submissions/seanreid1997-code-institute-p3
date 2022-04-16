@@ -1,10 +1,11 @@
-import os
 import time
 import gspread
 from google.oauth2.service_account import Credentials
 from employees import options
 from employees import manage_spreadsheet
 from finance import get_finance_data
+from employees import validate_choice
+from employees import clear_console
 
 SCOPE = [
     "https://www.googleapis.com/auth/spreadsheets",
@@ -57,7 +58,9 @@ def register():
         print('\nUser successfully added')
         time.sleep(0.2)
     else:
-        print('Invalid')
+        validate_choice(user_registered)
+        clear_console()
+        main()
 
 
 def login():
@@ -93,15 +96,19 @@ def login():
             main()
 
 
-def clear_console():
+def go_back():
     """
-    Clears the console
+    Function with a for loop to return
     """
-    time.sleep(1)
-    command = 'clear'
-    if os.name in ('nt', 'dos'):
-        command = 'cls'
-    os.system(command)
+    print('\n1.Return to menu')
+    print('2.Return to home')
+    user_return = input('\n')
+
+    if user_return == '1':
+        menu()
+
+    if user_return == '2':
+        exit_program()
 
 
 def menu():
@@ -115,49 +122,27 @@ def menu():
     print('1.Manage employee worksheet')
     print('2.Manage finance worksheet')
     print('3.Manage spreadsheet')
+    print('4.Exit')
     user_choice = input('\n')
 
     if user_choice == '1':
         clear_console()
         options()
-
-        print('\n1.Return to menu')
-        print('2.Return to home')
-        user_return = input('\n')
-
-        if user_return == '1':
-            menu()
-
-        if user_return == '2':
-            exit_program()
+        go_back()
 
     elif user_choice == '2':
         clear_console()
         get_finance_data()
-
-        print('\n1.Return to menu')
-        print('2.Return to home')
-        user_return = input('\n')
-
-        if user_return == '1':
-            menu()
-
-        if user_return == '2':
-            exit_program()
+        go_back()
 
     elif user_choice == '3':
         clear_console()
         manage_spreadsheet()
+        go_back()
 
-        print('\n1.Return to menu')
-        print('2.Return to home')
-        user_return = input('\n')
-
-        if user_return == '1':
-            menu()
-
-        if user_return == '2':
-            exit_program()
+    elif user_choice == '4':
+        clear_console()
+        exit_program()
 
 
 def exit_program():
@@ -166,7 +151,7 @@ def exit_program():
     once user has completed use.
     """
     clear_console()
-    time.sleep(1)
+    time.sleep(0.5)
     main()
 
 

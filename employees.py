@@ -1,3 +1,4 @@
+import os
 import time
 import gspread
 from google.oauth2.service_account import Credentials
@@ -27,8 +28,8 @@ def options():
         print('Retrieving list of employees. Please wait...\n')
         view_employees()
         time.sleep(0.3)
-    else:
-        pass
+    elif time.sleep(0.2):
+         pass
 
     print('\n1.Yes')
     print('2.No')
@@ -37,6 +38,7 @@ def options():
         add_employee()
         time.sleep(0.3)
     else:
+        time.sleep(0.2)
         pass
 
     print('\n1.Yes')
@@ -115,16 +117,60 @@ def manage_spreadsheet():
     Function that allows user to manage all
     worksheets in spreadsheets.
     """
+
+    print('\n1.Yes')
+    print('2.No')
     user_input_create = input('\nWould you like to create a worksheet?\n')
-    if user_input_create == 'yes':
+    if user_input_create == '1':
         create_worksheet()
         time.sleep(0.3)
-    else:
+
+    elif user_input_create == '2':
         pass
 
+    else:
+        validate_choice(user_input_create)
+        clear_console()
+        manage_spreadsheet()
+
     user_input_delete = input('\nWould you like to delete a worksheet?\n')
-    if user_input_delete == 'yes':
+    if user_input_delete == '1':
         delete_worksheet()
         time.sleep(0.3)
 
-    print('\nThank you for using our services.\n')
+    elif user_input_create == '2':
+        pass
+
+    else:
+        validate_choice(user_input_delete)
+        clear_console()
+        manage_spreadsheet()
+
+
+def validate_choice(choice):
+    """
+    Function that validates where the user has imput
+    the correct values.
+    """
+    try:
+        if choice != '1' or choice != '2':
+            raise ValueError(
+                "Invalid input."
+            )
+    except ValueError as error:
+        print(f"{error}Please try again.\n")
+        time.sleep(1)
+        return False
+
+    return True
+
+
+def clear_console():
+    """
+    Clears the console
+    """
+    time.sleep(1)
+    command = 'clear'
+    if os.name in ('nt', 'dos'):
+        command = 'cls'
+    os.system(command)
