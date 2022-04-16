@@ -162,14 +162,14 @@ This is an automation designed to view and alter information retrieved from the 
 <li></li>
 <li>Diagrams.net - Used for flowchart</li>
 <li>Git - used for version control within VSCode to push the code to GitHub.</li>
-<li>Github</li>
+<li>Github - used as a remote repository to store project code</li>
 <li>Gitpod</li>
 <li>Google Cloud Platform</li>
 <li>Google Sheets API</li>
-<li>Google Sheets</li>
+<li>Google Sheets - Used to store spreadsheet data.</li>
 <li>Heroku</li>
 <li>PEP8</li>
-<li>Visual Studio Code</li>
+<li>Visual Studio Code - IDE used to write the code for project.</li>
 </ul>
 
 #### Libraries
