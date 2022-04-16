@@ -188,31 +188,49 @@ This is an automation designed to view and alter information retrieved from the 
 
 ## Features
 
+### Home Page
+
 <ul>
 <li>At the begining you will be asked to sign in.</li>
 <details><summary>Login</summary>
 <img src="docs/features/login.jpg">
 </details>
+
+### Main Menu
+
+<ul>
 <li>As the program begins you will be given a choice on what services you would like to use.</li>
 <details><summary>Choices</summary>
 <img src="#">
 </details>
+</ul>
 <li>You can either choose to add, remove, or simply view an employees details for reviewing.</li>
 <details><summary>Choices</summary>
 <img src="#">
 </details>
-<li>To to any of these tasks you will need to answer either yes or no to the relevant questions</li>
+
+<li>You will be given a list of choices.</li>
 <details><summary>Choices</summary>
 <img src="#">
 </details>
+
+### Add Employee
+
+<ul>
 <li>Should you choose to add an employee to the database you will have to input their detais</li>
 <details><summary>Choices</summary>
 <img src="#">
 </details>
+
 <li>Once you have entered the employees details, they should appear on the spreadsheet</li>
 <details><summary>Choices</summary>
 <img src="#">
 </details>
+</ul>
+
+### Remove Employee
+
+<ul>
 <li>To remove an employee you will need to input their details</li>
 <details><summary>Choices</summary>
 <img src="#">
@@ -221,14 +239,35 @@ This is an automation designed to view and alter information retrieved from the 
 <details><summary>Choices</summary>
 <img src="#">
 </details>
+</ul>
+
+### View Employees
+
+<ul>
 <li>To view the employees you need only answer yes to the relvant question.</li>
 <details><summary>Choices</summary>
 <img src="#">
 </details>
+
 <li>If you had answered yes to view employee details, you will be given a full list of existing employees.</li>
 <details><summary>Choices</summary>
 <img src="#">
 </details>
+</ul>
+
+### Create Worksheet
+
+<ul>
+<li>You will be given the option to create a worksheet.</li>
+<details><summary>Choices</summary>
+<img src="#">
+</details>
+</ul>
+
+### Delete Worksheet
+
+<ul>
+<li></li>
 </ul>
 
 ## Testing
