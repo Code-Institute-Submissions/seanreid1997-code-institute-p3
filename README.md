@@ -334,7 +334,7 @@ The website was tested on the browsers via:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| Browser compatibility | Program works on various browsers | Program should work on various browsers | Works as expected |
 <details><summary></summary>
 <img src="#">
 </details>
