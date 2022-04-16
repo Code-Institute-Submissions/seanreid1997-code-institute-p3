@@ -28,8 +28,14 @@ def options():
         print('Retrieving list of employees. Please wait...\n')
         view_employees()
         time.sleep(0.3)
-    elif time.sleep(0.2):
-         pass
+    elif user_input_view == '2':
+        time.sleep(0.2)
+        pass
+
+    else:
+        validate_choice(user_input_view)
+        time.sleep(0.2)
+        view_employees()
 
     print('\n1.Yes')
     print('2.No')
@@ -37,9 +43,14 @@ def options():
     if user_input_add == '1':
         add_employee()
         time.sleep(0.3)
-    else:
+    elif user_input_add:
         time.sleep(0.2)
         pass
+
+    else:
+        validate_choice(user_input_add)
+        time.sleep(0.2)
+        add_employee()
 
     print('\n1.Yes')
     print('2.No')
@@ -47,9 +58,15 @@ def options():
     if user_input_remove == '1':
         remove_employee()
         time.sleep(0.3)
-    else:
+
+    elif user_input_remove == '2':
         print('\nThank you for using our services.\n')
         time.sleep(0.5)
+
+    else:
+        validate_choice(user_input_remove)
+        time.sleep(0.2)
+        remove_employee()
 
 
 def add_employee():
