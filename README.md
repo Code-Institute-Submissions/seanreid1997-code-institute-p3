@@ -271,7 +271,7 @@ The website was tested on the browsers via:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| Register new user | Program registers user based on user input | User input updated to 'Login' worksheet | works as expected |
 <details><summary></summary>
 <img src="#">
 </details>
