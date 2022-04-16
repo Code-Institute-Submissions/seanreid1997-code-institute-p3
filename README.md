@@ -168,6 +168,7 @@ This is an automation designed to view and alter information retrieved from the 
 <li>Google Sheets API</li>
 <li>Google Sheets</li>
 <li>Heroku</li>
+<li>PEP8</li>
 <li>Visual Studio Code</li>
 </ul>
 
