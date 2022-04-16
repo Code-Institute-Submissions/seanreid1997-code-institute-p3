@@ -124,26 +124,27 @@ This is an automation designed to view and alter information retrieved from the 
 #### Manage employees
 
 <ul>
-<li></li>
-<li></li>
+<li>This option allows the user manipulate the 'Employess' worksheet.</li>
+<li>You can view, add and remove employees from the worksheet.</li>
 </ul>
 
 #### Manage Finance
 
 <ul>
-<li></li>
+<li>This option allows the user to review the data in the financial worksheet.</li>
+<li>This data in question represents the income compared to the expenditure.</li>
 </ul>
 
 #### Manage Spreadsheet
 
 <ul>
-<li></li>
+<li>This option allows to create or delete specific worksheets.</li>
 </ul>
 
 #### Exit
 
 <ul>
-<li></li>
+<li>Selecting this option returns the user to the begining.</li>
 </ul>
 </details>
 
