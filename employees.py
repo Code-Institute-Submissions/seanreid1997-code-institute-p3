@@ -2,6 +2,8 @@ import os
 import time
 import gspread
 from google.oauth2.service_account import Credentials
+from colorama import Fore
+from colorama import init
 
 SCOPE = [
     "https://www.googleapis.com/auth/spreadsheets",
@@ -13,6 +15,7 @@ CREDS = Credentials.from_service_account_file('creds.json')
 SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open("Tech Company ltd")
+init(autoreset=True)
 
 
 def options():
@@ -172,10 +175,10 @@ def validate_choice(choice):
     try:
         if choice != '1' or choice != '2':
             raise ValueError(
-                "Invalid input."
+                Fore.RED + "Invalid input."
             )
     except ValueError as error:
-        print(f"{error}Please type '1' or '2'.\n")
+        print(Fore.RED + f"{error} Please type '1' or '2'.\n")
         time.sleep(1)
         return False
 

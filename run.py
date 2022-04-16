@@ -6,6 +6,9 @@ from employees import manage_spreadsheet
 from finance import get_finance_data
 from employees import validate_choice
 from employees import clear_console
+from colorama import Fore
+from colorama import init
+
 
 SCOPE = [
     "https://www.googleapis.com/auth/spreadsheets",
@@ -20,6 +23,7 @@ SHEET = GSPREAD_CLIENT.open("Tech Company ltd")
 BORDER = '_' * 50
 WELCOME = '\nWelcome to The Tech Company data service\n'
 MENU_BORDER = '_' * 20
+init(autoreset=True)
 
 
 def welcome_message():
@@ -79,20 +83,21 @@ def login():
         if username in verify_name:
             print('\nUsername is correct\n')
         else:
-            print('\nUsername does not exist. Please try again!\n')
+            print(Fore.RED + '\nUsername does not exist. Please try again!\n')
+            time.sleep(0.1)
             clear_console()
             welcome_message()
             login()
 
         password = input('Password:\n')
         if password in verify_password:
-            print('\nPassword is correct')
+            print(Fore.GREEN + '\nPassword is correct')
             print('Please wait...')
             time.sleep(3)
             print('You successfully logged in!\n')
             return True
         else:
-            print('\nYour password is incorrect. Please try again!\n')
+            print(Fore.RED + '\nYour password is incorrect. Please try again!\n')
             clear_console()
             main()
 
