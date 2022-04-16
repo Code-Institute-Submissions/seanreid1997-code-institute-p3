@@ -160,12 +160,15 @@ This is an automation designed to view and alter information retrieved from the 
 
 <ul>
 <li></li>
-<li></li>
+<li>Diagrams.net</li>
 <li>Git</li>
 <li>Github</li>
 <li>Gitpod</li>
+<li>Google Cloud Platform</li>
 <li>Google Sheets API</li>
 <li>Google Sheets</li>
+<li>Heroku</li>
+<li>Visual Studio Code</li>
 </ul>
 
 #### Libraries
@@ -227,8 +230,6 @@ This is an automation designed to view and alter information retrieved from the 
 <img src="#">
 </details>
 </ul>
-
-
 
 ## Testing
 
@@ -431,7 +432,6 @@ The website was tested on the browsers via:
 
 <ul>
 <li>Template used was the Code Institute python essentials template.</li>
-<li></li>
 </ul>
 
 ## Acknowledgements
