@@ -237,13 +237,13 @@ This is an automation designed to view and alter information retrieved from the 
 <li>Python code was tested via The PEP8 Python Validator.</li>
 <br>
 <details><summary>run.py</summary>
-<img src="#">
+<img src="docs/validation/ValidRun.py.jpg">
 </details>
 <details><summary>employees.py</summary>
-<img src="#">
+<img src="docs/validation/ValidEmployees.py.jpg">
 </details>
 <details><summary>finance.py</summary>
-<img src="#">
+<img src="docs/validation/ValidFinance.py.jpg">
 </details>
 </ul>
 
