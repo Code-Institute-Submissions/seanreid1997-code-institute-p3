@@ -283,6 +283,20 @@ This is an automation designed to view and alter information retrieved from the 
 </details>
 </ul>
 
+### Return Options
+
+<ul>
+<li>You will be given a choice to on where to return to.</li>
+<details><summary>Screenshots</summary>
+<img src="#">
+</details>
+
+<li>Once you have selected your choice, you will be redirected to the selected page.</li>
+<details><summary>Screenshots</summary>
+<img src="#">
+</details>
+</ul>
+
 ## Testing
 
 ### Validation
