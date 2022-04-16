@@ -352,7 +352,7 @@ The website was tested on the browsers via:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| Program security | Authorisation required | User must login before proceeding | Works as expected |
 <details><summary></summary>
 <img src="#">
 </details>
