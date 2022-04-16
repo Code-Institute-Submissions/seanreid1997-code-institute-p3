@@ -298,7 +298,7 @@ The website was tested on the browsers via:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| Remove data on worksheet | User input is removed from worksheet | Data should be removed from worksheet | Works as expected |
 <details><summary></summary>
 <img src="#">
 </details>
