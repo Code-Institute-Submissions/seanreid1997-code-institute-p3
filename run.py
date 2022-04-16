@@ -56,6 +56,8 @@ def register():
         update_register.append_row(new_user)
         print('\nUser successfully added')
         time.sleep(0.2)
+    else:
+        print('Invalid')
 
 
 def login():
@@ -63,7 +65,7 @@ def login():
     Function that collects user login credentials
     and compares them to credentials on spreadsheet
     """
-    time.sleep(0.3)
+    time.sleep(0.2)
     authorise = SHEET.worksheet('Login')
     verify_name = authorise.col_values(1)
     verify_password = authorise.col_values(2)
@@ -74,6 +76,9 @@ def login():
             print('\nUsername is correct\n')
         else:
             print('\nYour username is incorrect. Please try again!\n')
+            clear_console()
+            welcome_message()
+            login()
 
         password = input('Password:\n')
         if password in verify_password:
@@ -111,7 +116,7 @@ def menu():
     print('2.Manage finance worksheet')
     print('3.Manage spreadsheet')
     user_choice = input('\n')
-    
+
     if user_choice == '1':
         clear_console()
         options()
@@ -120,17 +125,17 @@ def menu():
     elif user_choice == '2':
         clear_console()
         get_finance_data()
-  
+
         print('\n1.Return to menu')
         print('2.Return to home')
         user_return = input('\n')
 
         if user_return == '1':
             menu()
-        
+
         if user_return == '2':
             exit_program()
-   
+
     elif user_choice == '3':
         clear_console()
         manage_spreadsheet()

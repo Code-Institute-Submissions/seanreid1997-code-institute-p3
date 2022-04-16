@@ -29,7 +29,7 @@ def options():
         time.sleep(0.3)
     else:
         pass
-    
+
     print('\n1.Yes')
     print('2.No')
     user_input_add = input('\nWould you like to add an employee?\n')
@@ -126,5 +126,5 @@ def manage_spreadsheet():
     if user_input_delete == 'yes':
         delete_worksheet()
         time.sleep(0.3)
-    
+
     print('\nThank you for using our services.\n')
