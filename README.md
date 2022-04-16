@@ -100,10 +100,19 @@ This is an automation designed to view and alter information retrieved from the 
 
 ### User Manual
 
-<details><summary>Walkthrough</summary>
+<details><summary>Overview</summary>
 <ul>
 <li>The program runs very simply.</li>
-<li>Throughout the program you'll mainly be required to answer either "yes" or "no" to progress.</li>
+<li>Throughout the program you'll mainly be required to answer choose between 2 options.</li>
+<li>At the begining you'll be required to login/register.</li>
+<li>Once you have successfully logged in you will be redirected to the main menu.</li>
+<li>You'll be given a choice of 4 options. <ul>
+<li>Manage employees</li>
+<li>Manage Finance</li>
+<li>Manage spreadsheet</li>
+<li>Exit</li>
+</ul></li>
+<li></li>
 <li></li>
 </ul>
 </details>
@@ -138,6 +147,10 @@ This is an automation designed to view and alter information retrieved from the 
 </ul>
 
 ##### 3rd Party Libraries
+
+<ul>
+<li>gspread</li>
+</ul>
 
 ## Features
 
