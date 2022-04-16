@@ -280,7 +280,7 @@ The website was tested on the browsers via:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| View spreadsheet data | Retrieve list of data form worksheets | user receives list of data | works as expected |
 <details><summary></summary>
 <img src="#">
 </details>
