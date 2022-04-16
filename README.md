@@ -184,6 +184,7 @@ This is an automation designed to view and alter information retrieved from the 
 
 <ul>
 <li>gspread - JUSTIFICATION: used to interact with Google Apis and manipulate data on spreadsheet.</li>
+<li>colorama - JUSTIFICATION: used to add color to program alerts.</li>
 </ul>
 
 ## Features
