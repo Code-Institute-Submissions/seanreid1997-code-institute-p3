@@ -2,8 +2,8 @@
 
 Developer: Sean Reid
 
-<img src="#">
-<a href=""></a>
+<img src="docs/mock.jpg">
+<a href="https://company-data-analysis-app.herokuapp.com/">Live App</a>
 
 
 ## Table of Contents
