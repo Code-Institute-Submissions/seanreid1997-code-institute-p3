@@ -19,25 +19,30 @@ def options():
     Provides options to the user
     and then calls the funtion relevant to the answer given by user.
     """
-    print('\nPlease answer "yes" or "no" to the following questions.\n')
-
+    print('\nPlease select from the following\n')
+    print('1.Yes')
+    print('2.No')
     user_input_view = input('Would you like to view our list of employees?\n')
-    if user_input_view == 'yes':
+    if user_input_view == '1':
         print('Retrieving list of employees. Please wait...\n')
         view_employees()
         time.sleep(0.3)
     else:
         pass
-
+    
+    print('\n1.Yes')
+    print('2.No')
     user_input_add = input('\nWould you like to add an employee?\n')
-    if user_input_add == 'yes':
+    if user_input_add == '1':
         add_employee()
         time.sleep(0.3)
     else:
         pass
 
+    print('\n1.Yes')
+    print('2.No')
     user_input_remove = input('\nWould you like to remove an employee?\n')
-    if user_input_remove == 'yes':
+    if user_input_remove == '1':
         remove_employee()
         time.sleep(0.3)
     else:

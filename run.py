@@ -43,6 +43,8 @@ def register():
     update_register = SHEET.worksheet('Login')
     time.sleep(0.3)
     if user_registered == '1':
+        clear_console()
+        welcome_message()
         login()
     elif user_registered == '2':
         user = input('\nPlease enter your username:\n')
@@ -82,6 +84,8 @@ def login():
             return True
         else:
             print('\nYour password is incorrect. Please try again!\n')
+            clear_console()
+            main()
 
 
 def clear_console():

@@ -180,6 +180,7 @@ This is an automation designed to view and alter information retrieved from the 
 
 <ul>
 <li>Python code was tested via The PEP8 Python Validator.</li>
+<br>
 <details><summary>run.py</summary>
 <img src="#">
 </details>
