@@ -189,6 +189,7 @@ This is an automation designed to view and alter information retrieved from the 
 <li>At the begining you will be asked to sign in.</li>
 <details><summary>Login</summary>
 <img src="docs/features/login.jpg">
+</details>
 <li>As the program begins you will be given a choice on what services you would like to use.</li>
 <details><summary>Choices</summary>
 <img src="#">
@@ -388,7 +389,7 @@ The website was tested on the browsers via:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| Return options | Select appropriate option | Return to home | Works as expected |
 <details><summary></summary>
 <img src="#">
 </details>
