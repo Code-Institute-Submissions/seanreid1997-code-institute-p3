@@ -440,6 +440,9 @@ The website was tested on the browsers via:
 <ul>
 <li>Stack Overflow provided help on many queries.</li>
 <li>docs.gspread.org provided help on gspread functions.</li>
+<li><a href="https://github.com/aleksandracodes/CI_PP3_Connect4">aleksandracodes</a> project gave inspiration for ideas.</li>
+<li><a href="https://github.com/dannymagnus/CI_MS3_MitsurukiFMS#validation">dannymagnus</a> project also gave inspiration to projcet. particularly README.</li>
+
 </ul>
 
 ## Acknowledgements
