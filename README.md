@@ -160,8 +160,8 @@ This is an automation designed to view and alter information retrieved from the 
 
 <ul>
 <li></li>
-<li>Diagrams.net</li>
-<li>Git</li>
+<li>Diagrams.net - Used for flowchart</li>
+<li>Git - used for version control within VSCode to push the code to GitHub.</li>
 <li>Github</li>
 <li>Gitpod</li>
 <li>Google Cloud Platform</li>
