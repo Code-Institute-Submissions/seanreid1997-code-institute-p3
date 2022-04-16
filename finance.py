@@ -28,9 +28,9 @@ def get_finance_data():
         for data in full_statement:
             print(data)
 
-def monthly_profit():
-    """
-    Function that gets values from the 2 columns
-    in 'Finance' worksheet and subtracts
-    the latter from the first. (column 1 - column 2)
-    """
+# def monthly_profit():
+    # """
+    # Function that gets values from the 2 columns
+    # in 'Finance' worksheet and subtracts
+    # the latter from the first. (column 1 - column 2)
+    # """

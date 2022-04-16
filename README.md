@@ -256,8 +256,9 @@ The website was tested on the browsers via:
 <li>Firefox</li>
 </ul>
 
-## Testing User Stories
+## User Story Testing
 
+<details><summary>User Stories</summary>
 1. As a user I expect the program to be secure.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -391,6 +392,8 @@ The website was tested on the browsers via:
 |  |  |  |  |
 <details><summary></summary>
 <img src="#">
+</details>
+
 </details>
 
 ## Bugs

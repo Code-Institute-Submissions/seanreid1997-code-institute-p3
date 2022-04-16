@@ -121,7 +121,7 @@ def menu():
     clear_console()
     time.sleep(0.3)
     print(MENU_BORDER)
-    print(menu_title.upper())
+    print(menu_title.center(20).upper())
     print(MENU_BORDER)
     print('\n1.Manage employee worksheet')
     print('2.Manage finance worksheet')
