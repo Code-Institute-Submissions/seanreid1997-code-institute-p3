@@ -128,6 +128,17 @@ This is an automation designed to view and alter information retrieved from the 
 <li>Google Sheets</li>
 </ul>
 
+#### Libraries
+
+##### Python Libraries
+
+<ul>
+<li>time</li>
+<li>os</li>
+</ul>
+
+##### 3rd Party Libraries
+
 ## Features
 
 <ul>
