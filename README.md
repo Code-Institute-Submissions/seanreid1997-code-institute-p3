@@ -307,7 +307,7 @@ The website was tested on the browsers via:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| Data should be calculated beforhand | User requsets summary data | User should recieve pre-calculated data |  |
 <details><summary></summary>
 <img src="#">
 </details>
