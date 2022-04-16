@@ -159,7 +159,6 @@ This is an automation designed to view and alter information retrieved from the 
 ### Frameworks and Tools
 
 <ul>
-<li></li>
 <li>Diagrams.net - used for flowchart</li>
 <li>Git - used for version control within VSCode to push the code to GitHub.</li>
 <li>Github - used as a remote repository to store project code</li>
@@ -184,7 +183,7 @@ This is an automation designed to view and alter information retrieved from the 
 ##### 3rd Party Libraries
 
 <ul>
-<li>gspread</li>
+<li>gspread - JUSTIFICATION: used to interact with Google Apis and manipulate data on spreadsheet.</li>
 </ul>
 
 ## Features
