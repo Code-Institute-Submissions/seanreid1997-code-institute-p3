@@ -159,12 +159,12 @@ This is an automation designed to view and alter information retrieved from the 
 ### Frameworks and Tools
 
 <ul>
-<li>Diagrams.net - used for flowchart</li>
+<li>Diagrams.net - used for flowchart.</li>
 <li>Git - used for version control within VSCode to push the code to GitHub.</li>
-<li>Github - used as a remote repository to store project code</li>
-<li>Gitpod - open source developer platform used for project code</li>
+<li>Github - used as a remote repository to store project code.</li>
+<li>Gitpod - open source developer platform used for project code.</li>
 <li>Google Cloud Platform - used to manage access and permissions to google auth, google sheets, google services, etc.</li>
-<li>Google Sheets API - RESTful interface used read and modify project spreadsheet data</li>
+<li>Google Sheets API - RESTful interface used read and modify project spreadsheet data.</li>
 <li>Google Sheets - used to store spreadsheet data.</li>
 <li>Heroku - used to deploy project.</li>
 <li>PEP8 - used to validate python code.</li>
@@ -192,7 +192,7 @@ This is an automation designed to view and alter information retrieved from the 
 
 <ul>
 <li>At the begining you will be asked to sign in.</li>
-<details><summary>Login</summary>
+<details><summary>Screenshots</summary>
 <img src="docs/features/login.jpg">
 </details>
 
@@ -200,30 +200,30 @@ This is an automation designed to view and alter information retrieved from the 
 
 <ul>
 <li>As the program begins you will be given a choice on what services you would like to use.</li>
-<details><summary>Choices</summary>
+<details><summary>Screenshots</summary>
 <img src="#">
 </details>
 </ul>
 <li>You can either choose to add, remove, or simply view an employees details for reviewing.</li>
-<details><summary>Choices</summary>
+<details><summary>Screenshots</summary>
 <img src="#">
 </details>
 
 <li>You will be given a list of choices.</li>
-<details><summary>Choices</summary>
+<details><summary>Screenshots</summary>
 <img src="#">
 </details>
 
 ### Add Employee
 
 <ul>
-<li>Should you choose to add an employee to the database you will have to input their detais</li>
-<details><summary>Choices</summary>
+<li>Should you choose to add an employee to the database you will have to input their detais.</li>
+<details><summary>Screenshots</summary>
 <img src="#">
 </details>
 
-<li>Once you have entered the employees details, they should appear on the spreadsheet</li>
-<details><summary>Choices</summary>
+<li>Once you have entered the employees details, they should appear on the spreadsheet.</li>
+<details><summary>Screenshots</summary>
 <img src="#">
 </details>
 </ul>
@@ -232,11 +232,11 @@ This is an automation designed to view and alter information retrieved from the 
 
 <ul>
 <li>To remove an employee you will need to input their details</li>
-<details><summary>Choices</summary>
+<details><summary>Screenshots</summary>
 <img src="#">
 </details>
 <li>Once you have entered the employee details, they should be removed from the spreadsheet.</li>
-<details><summary>Choices</summary>
+<details><summary>Screenshots</summary>
 <img src="#">
 </details>
 </ul>
@@ -245,12 +245,12 @@ This is an automation designed to view and alter information retrieved from the 
 
 <ul>
 <li>To view the employees you need only answer yes to the relvant question.</li>
-<details><summary>Choices</summary>
+<details><summary>Screenshots</summary>
 <img src="#">
 </details>
 
 <li>If you had answered yes to view employee details, you will be given a full list of existing employees.</li>
-<details><summary>Choices</summary>
+<details><summary>Screenshots</summary>
 <img src="#">
 </details>
 </ul>
@@ -259,7 +259,12 @@ This is an automation designed to view and alter information retrieved from the 
 
 <ul>
 <li>You will be given the option to create a worksheet.</li>
-<details><summary>Choices</summary>
+<details><summary>Screenshots</summary>
+<img src="#">
+</details>
+
+<li>Once the name of the worksheet is entered, the worksheet will appear in spreadsheet.</li>
+<details><summary>Screenshots</summary>
 <img src="#">
 </details>
 </ul>
@@ -267,7 +272,15 @@ This is an automation designed to view and alter information retrieved from the 
 ### Delete Worksheet
 
 <ul>
-<li></li>
+<li>You will be given a choice to delete a worksheet.</li>
+<details><summary>Screenshots</summary>
+<img src="#">
+</details>
+
+<li>Once the worksheet name is entered, it should be removed the spreadsheet.</li>
+<details><summary>Screenshots</summary>
+<img src="#">
+</details>
 </ul>
 
 ## Testing
