@@ -262,7 +262,7 @@ The website was tested on the browsers via:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| Program security | Program requests user to login | User must login before continuing | works as expected |
 <details><summary></summary>
 <img src="#">
 </details>
