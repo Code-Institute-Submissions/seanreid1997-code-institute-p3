@@ -131,6 +131,9 @@ This is an automation designed to view and alter information retrieved from the 
 ## Features
 
 <ul>
+<li>At the begining you will be asked to sign in.</li>
+<details><summary>Login</summary>
+<img src="docs/features/login.jpg">
 <li>As the program begins you will be given a choice on what services you would like to use.</li>
 <details><summary>Choices</summary>
 <img src="#">
