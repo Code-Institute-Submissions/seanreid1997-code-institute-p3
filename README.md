@@ -258,7 +258,6 @@ The website was tested on the browsers via:
 
 ## User Story Testing
 
-<details><summary>User Stories</summary>
 1. As a user I expect the program to be secure.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -394,8 +393,6 @@ The website was tested on the browsers via:
 <img src="#">
 </details>
 
-</details>
-
 ## Bugs
 
 
@@ -430,7 +427,7 @@ The website was tested on the browsers via:
 ### Code Institute
 
 <ul>
-<li></li>
+<li>Template used was the Code Institute python essentials template.</li>
 <li></li>
 </ul>
 
