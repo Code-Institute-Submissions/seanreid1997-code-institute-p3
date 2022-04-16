@@ -19,6 +19,7 @@ GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open("Tech Company ltd")
 BORDER = '_' * 50
 WELCOME = '\nWelcome to The Tech Company data service\n'
+MENU_BORDER = '_' * 20
 
 
 def welcome_message():
@@ -116,10 +117,13 @@ def menu():
     Function that provides a menu for users
     to procede.
     """
+    menu_title = 'main menu'
     clear_console()
     time.sleep(0.3)
-    print('Menu')
-    print('1.Manage employee worksheet')
+    print(MENU_BORDER)
+    print(menu_title.upper())
+    print(MENU_BORDER)
+    print('\n1.Manage employee worksheet')
     print('2.Manage finance worksheet')
     print('3.Manage spreadsheet')
     print('4.Exit')
