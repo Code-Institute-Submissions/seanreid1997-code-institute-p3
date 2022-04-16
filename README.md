@@ -163,12 +163,12 @@ This is an automation designed to view and alter information retrieved from the 
 <li>Diagrams.net - used for flowchart</li>
 <li>Git - used for version control within VSCode to push the code to GitHub.</li>
 <li>Github - used as a remote repository to store project code</li>
-<li>Gitpod</li>
+<li>Gitpod - open source developer platform used for project code</li>
 <li>Google Cloud Platform - used to manage access and permissions to google auth, google sheets, google services, etc.</li>
-<li>Google Sheets API</li>
+<li>Google Sheets API - RESTful interface used read and modify project spreadsheet data</li>
 <li>Google Sheets - used to store spreadsheet data.</li>
 <li>Heroku - used to deploy project.</li>
-<li>PEP8</li>
+<li>PEP8 - used to validate python code.</li>
 <li>Visual Studio Code - IDE used to write the code for project.</li>
 </ul>
 
