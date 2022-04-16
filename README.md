@@ -361,7 +361,7 @@ The website was tested on the browsers via:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| Data Manipulation | Data is viewed and edited by user | User can manipulate data at will | works as expected |
 <details><summary></summary>
 <img src="#">
 </details>
