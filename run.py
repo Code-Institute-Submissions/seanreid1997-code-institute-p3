@@ -120,7 +120,16 @@ def menu():
     if user_choice == '1':
         clear_console()
         options()
-        exit_program()
+
+        print('\n1.Return to menu')
+        print('2.Return to home')
+        user_return = input('\n')
+
+        if user_return == '1':
+            menu()
+
+        if user_return == '2':
+            exit_program()
 
     elif user_choice == '2':
         clear_console()
@@ -139,7 +148,16 @@ def menu():
     elif user_choice == '3':
         clear_console()
         manage_spreadsheet()
-        exit_program()
+
+        print('\n1.Return to menu')
+        print('2.Return to home')
+        user_return = input('\n')
+
+        if user_return == '1':
+            menu()
+
+        if user_return == '2':
+            exit_program()
 
 
 def exit_program():
