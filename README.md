@@ -399,7 +399,9 @@ The website was tested on the browsers via:
 
 | **Bugs** | **Fixes** |
 | -------- | --------- |
-|   Every time the view_employees function is called it deletes a row.  | Remove delete_row gspread method from function. |
+| Every time the view_employees function is called it deletes a row.  | Remove delete_row gspread method from function. |
+| For loop in go back function disrupted the program. | Remove for loop from go back function |
+|  |  |
 
 ## Deployment
 
