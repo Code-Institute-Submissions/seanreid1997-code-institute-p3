@@ -81,7 +81,7 @@ def add_employee():
     print("Updating Employee data. Please wait...\n")
     worksheet_to_update = SHEET.worksheet('Employees')
     worksheet_to_update.append_row(staff_data)
-    print("Employee data successfully added.\n")
+    print(Fore.GREEN + "Employee data successfully added.\n")
 
 
 def remove_employee():
@@ -94,7 +94,7 @@ def remove_employee():
     print("Removing Employee data. Please wait...\n")
     worksheet_to_update = SHEET.worksheet('Employees')
     worksheet_to_update.delete_rows(remove_staff)
-    print("Employee data successfully added.\n")
+    print(Fore.GREEN + "Employee data successfully removed.\n")
 
 
 def view_employees():
@@ -117,7 +117,7 @@ def create_worksheet():
     wsheet_rows = input('Please enter the number of rows:\n')
     print('\nCreating worksheet. Please wait...\n')
     SHEET.add_worksheet(wsheet_name, wsheet_rows, wsheet_col)
-    print('Worksheet successfully created\n')
+    print(Fore.GREEN + 'Worksheet successfully created\n')
 
 
 def delete_worksheet():
@@ -128,7 +128,7 @@ def delete_worksheet():
     input('Please enter the worksheet name:\n')
     print('\nDeleting worksheet. Please wait...\n')
     SHEET.del_worksheet('bb')
-    print('worksheet has been successfully deleted.')
+    print(Fore.GREEN + 'worksheet has been successfully deleted.')
 
 
 def manage_spreadsheet():
