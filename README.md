@@ -262,7 +262,7 @@ The website was tested on the browsers via:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Program security | Program requests user to login | User must login before continuing | works as expected |
+| Program security | Program requests user to login | User must login before continuing | Works as expected |
 <details><summary></summary>
 <img src="#">
 </details>
@@ -271,7 +271,7 @@ The website was tested on the browsers via:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Register new user | Program registers user based on user input | User input updated to 'Login' worksheet | works as expected |
+| Register new user | Program registers user based on user input | User input updated to 'Login' worksheet | Works as expected |
 <details><summary></summary>
 <img src="#">
 </details>
@@ -280,7 +280,7 @@ The website was tested on the browsers via:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| View spreadsheet data | Retrieve list of data form worksheets | user receives list of data | works as expected |
+| View spreadsheet data | Retrieve list of data form worksheets | User receives list of data | Works as expected |
 <details><summary></summary>
 <img src="#">
 </details>
@@ -289,7 +289,7 @@ The website was tested on the browsers via:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| Add new data to worksheet | User input is appended to worksheet | New data should be appended successfully| Works as expected |
 <details><summary></summary>
 <img src="#">
 </details>
