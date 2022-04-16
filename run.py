@@ -1,13 +1,11 @@
 import time
 import gspread
 from google.oauth2.service_account import Credentials
-from employees import options
-from employees import manage_spreadsheet
-from finance import get_finance_data
-from employees import validate_choice
-from employees import clear_console
 from colorama import Fore
 from colorama import init
+from employees import options, manage_spreadsheet, validate_choice,\
+    clear_console
+from finance import get_finance_data
 
 
 SCOPE = [
@@ -81,10 +79,10 @@ def login():
     while True:
         username = input('\nUsername:\n')
         if username in verify_name:
-            print('\nUsername is correct\n')
+            print(Fore.GREEN + '\nUsername is correct\n')
         else:
             print(Fore.RED + '\nUsername does not exist. Please try again!\n')
-            time.sleep(0.1)
+            time.sleep(0.2)
             clear_console()
             welcome_message()
             login()
@@ -94,10 +92,11 @@ def login():
             print(Fore.GREEN + '\nPassword is correct')
             print('Please wait...')
             time.sleep(3)
-            print('You successfully logged in!\n')
+            print(Fore.GREEN + 'You successfully logged in!\n')
             return True
         else:
-            print(Fore.RED + '\nYour password is incorrect. Please try again!\n')
+            print(Fore.RED + '\nYour password is incorrect. \
+                Please try again!\n')
             clear_console()
             main()
 
