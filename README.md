@@ -94,7 +94,7 @@ This is an automation designed to view and alter information retrieved from the 
 ## Design
 
 ### Flowchart
-<details><summary></summary>
+<details><summary>Flowchart</summary>
 <img src="docs/p3flowchart.jpg">
 </details>
 
