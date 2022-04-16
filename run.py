@@ -79,7 +79,7 @@ def login():
         if username in verify_name:
             print('\nUsername is correct\n')
         else:
-            print('\nYour username is incorrect. Please try again!\n')
+            print('\nUsername does not exist. Please try again!\n')
             clear_console()
             welcome_message()
             login()

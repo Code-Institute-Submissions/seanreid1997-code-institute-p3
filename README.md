@@ -370,7 +370,7 @@ The website was tested on the browsers via:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| Navigation | Run program | Program should run without complications | Works as expected |
 <details><summary></summary>
 <img src="#">
 </details>

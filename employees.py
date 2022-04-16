@@ -175,7 +175,7 @@ def validate_choice(choice):
                 "Invalid input."
             )
     except ValueError as error:
-        print(f"{error}Please try again.\n")
+        print(f"{error}Please type '1' or '2'.\n")
         time.sleep(1)
         return False
 
