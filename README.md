@@ -95,7 +95,7 @@ This is an automation designed to view and alter information retrieved from the 
 
 ### Flowchart
 <details><summary></summary>
-<img src="#">
+<img src="docs/p3flowchart.jpg">
 </details>
 
 ### User Manual

@@ -117,7 +117,7 @@ def menu():
     Function that provides a menu for users
     to procede.
     """
-    menu_title = 'main menu'
+    menu_title = '\nmain menu'
     clear_console()
     time.sleep(0.3)
     print(MENU_BORDER)
