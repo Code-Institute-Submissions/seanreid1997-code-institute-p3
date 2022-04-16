@@ -195,6 +195,7 @@ This is an automation designed to view and alter information retrieved from the 
 <details><summary>Screenshots</summary>
 <img src="docs/features/login.jpg">
 </details>
+</ul>
 
 ### Main Menu
 
@@ -203,7 +204,7 @@ This is an automation designed to view and alter information retrieved from the 
 <details><summary>Screenshots</summary>
 <img src="#">
 </details>
-</ul>
+
 <li>You can either choose to add, remove, or simply view an employees details for reviewing.</li>
 <details><summary>Screenshots</summary>
 <img src="#">
@@ -213,6 +214,7 @@ This is an automation designed to view and alter information retrieved from the 
 <details><summary>Screenshots</summary>
 <img src="#">
 </details>
+</ul>
 
 ### Add Employee
 
@@ -466,9 +468,9 @@ The website was tested on the browsers via:
 
 | **Bugs** | **Fixes** |
 | -------- | --------- |
-| Every time the view_employees function is called it deletes a row.  | Remove delete_row gspread method from function. |
+| Every time the view_employees function is called it deletes a row.  | Remove delete_row gspread method from function |
 | For loop in go back function disrupted the program. | Remove for loop from go back function |
-|  |  |
+| All features wrapped in main menu list in features section | Remove unnecessary </ul> closing tag |
 
 ## Deployment
 
