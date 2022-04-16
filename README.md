@@ -325,7 +325,7 @@ The website was tested on the browsers via:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| User login | Program requests user login | User must login before continuing | Works as expected |
 <details><summary></summary>
 <img src="#">
 </details>
