@@ -37,12 +37,14 @@ def register():
     Function to allow user to register their login
     credentials
     """
-    user_registered = input('\nDo you have an account?\n')
+    print('\n1.Yes')
+    print('2.No')
+    user_registered = input('Do you have an account?\n')
     update_register = SHEET.worksheet('Login')
     time.sleep(0.3)
-    if user_registered == 'yes':
+    if user_registered == '1':
         login()
-    else:
+    elif user_registered == '2':
         user = input('\nPlease enter your username:\n')
         time.sleep(0.19)
         user_password = input('Please enter your password:\n')
