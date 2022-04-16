@@ -379,7 +379,7 @@ The website was tested on the browsers via:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| Error messages | Enter invalid input | Raise error and provide solution | Works as expected |
 <details><summary></summary>
 <img src="#">
 </details>
