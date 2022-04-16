@@ -180,15 +180,15 @@ This is an automation designed to view and alter information retrieved from the 
 
 <ul>
 <li>Python code was tested via The PEP8 Python Validator.</li>
-<li><details><summary>run.py</summary>
+<details><summary>run.py</summary>
 <img src="#">
-</details></li>
-<li><details><summary>employees.py</summary>
+</details>
+<details><summary>employees.py</summary>
 <img src="#">
-</details></li>
-<li><details><summary>finance.py</summary>
+</details>
+<details><summary>finance.py</summary>
 <img src="#">
-</details></li>
+</details>
 </ul>
 
 ### Browser Compatibility
