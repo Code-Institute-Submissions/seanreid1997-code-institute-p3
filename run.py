@@ -1,8 +1,7 @@
 import time
 import gspread
 from google.oauth2.service_account import Credentials
-from colorama import Fore
-from colorama import init
+from colorama import Fore, init
 from employees import options, manage_spreadsheet, validate_choice,\
     clear_console
 from finance import get_finance_data
