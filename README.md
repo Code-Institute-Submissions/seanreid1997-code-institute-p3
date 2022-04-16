@@ -432,6 +432,14 @@ The website was tested on the browsers via:
 
 <ul>
 <li>Template used was the Code Institute python essentials template.</li>
+<li>Love sanwiches project gave more insight and ideas to project.</li>
+</ul>
+
+#### Other
+
+<ul>
+<li>Stack Overflow provided help on many queries.</li>
+<li>docs.gspread.org provided help on gspread functions.</li>
 </ul>
 
 ## Acknowledgements
