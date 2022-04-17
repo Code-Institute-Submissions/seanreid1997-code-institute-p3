@@ -151,12 +151,14 @@ def manage_spreadsheet():
         clear_console()
         manage_spreadsheet()
 
+    print('\n1.Yes')
+    print('2.No')
     user_input_delete = input('\nWould you like to delete a worksheet?\n')
     if user_input_delete == '1':
         delete_worksheet()
         time.sleep(0.3)
 
-    elif user_input_create == '2':
+    elif user_input_delete == '2':
         pass
 
     else:

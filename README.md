@@ -21,6 +21,7 @@ Developer: Sean Reid
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks and Tools](#frameworks-and-tools)
+    3. [Libraries](#libraries)
 5. [Features](#features)
 6. [Testing](#validation)
 7. [Bugs](#Bugs)
@@ -171,16 +172,16 @@ This is an automation designed to view and alter information retrieved from the 
 <li>Visual Studio Code - IDE used to write the code for project.</li>
 </ul>
 
-#### Libraries
+### Libraries
 
-##### Python Libraries
+#### Python Libraries
 
 <ul>
 <li>time</li>
 <li>os</li>
 </ul>
 
-##### 3rd Party Libraries
+#### 3rd Party Libraries
 
 <ul>
 <li>gspread - JUSTIFICATION: used to interact with Google Apis and manipulate data on spreadsheet.</li>
@@ -472,6 +473,12 @@ The website was tested on the browsers via:
 | Every time the view_employees function is called it deletes a row.  | Remove delete_row gspread method from function |
 | For loop in go back function disrupted the program. | Remove for loop from go back function |
 | All features wrapped in main menu list in features section | Remove unnecessary </ul> closing tag |
+
+## Unfixed Bugs
+<ul>
+<li>When user enters incorrect username, program asks for password twice.</li>
+<li>Colors do not appear in deployed program.</li>
+</ul>
 
 ## Deployment
 
