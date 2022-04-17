@@ -481,7 +481,7 @@ The website was tested on the browsers via:
 <li>When user enters incorrect username, program asks for password twice.</li>
 <li>Colors do not appear in deployed program.</li>
 <li>Due to heroku server errors, some features may not be up to date.</li>
-<li>Delete functions return errors.</li>
+<li>Delete/Remove functions return errors.</li>
 </ul>
 
 ## Deployment
