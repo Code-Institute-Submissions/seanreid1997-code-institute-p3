@@ -71,7 +71,7 @@ Developer: Sean Reid
 4. I want to be able to manipulate data on the company spreadsheet.
 5. I want to be able to add and remove worksheets.
 6. I want to be able retrieve pre-caluculated financial data.
-7. 
+7. I want to be able to return to the start/exit.
 
 ### As A Returning User:
 
@@ -80,7 +80,7 @@ Developer: Sean Reid
 
 ### As A Site Owner:
 
-10. I want the program to be well spaced in terms of time managment.
+10. I want the program to be well spaced in managment.
 11. I want the program to be protected and require authorisation before it begins.
 12. I want users to be able to manipulate spreadsheet data. 
 13. I want users to interact with the program hasslefree.
@@ -335,7 +335,7 @@ The website was tested on the browsers via:
 |-------------|------------|---------------------|-------------------|
 | Program security | Program requests user to login | User must login before continuing | Works as expected |
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/userstorytest/">
 </details>
 
 2. I want to be able register my login credentials.
@@ -383,7 +383,7 @@ The website was tested on the browsers via:
 <img src="#">
 </details>
 
-7. 
+7. I want to be able to return to the start/exit.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -410,7 +410,7 @@ The website was tested on the browsers via:
 <img src="#">
 </details>
 
-10. 
+10. I want the program to be well spaced in managment.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
