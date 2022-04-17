@@ -473,6 +473,7 @@ The website was tested on the browsers via:
 | Every time the view_employees function is called it deletes a row.  | Remove delete_row gspread method from function |
 | For loop in go back function disrupted the program. | Remove for loop from go back function |
 | All features wrapped in main menu list in features section | Remove unnecessary </ul> closing tag |
+| When selecting '2' in delete worksheet option returns an error  | Give correct name to input variable in if statement |
 
 ## Unfixed Bugs
 <ul>
