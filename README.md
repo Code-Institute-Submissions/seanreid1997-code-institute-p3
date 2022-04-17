@@ -246,7 +246,7 @@ This is an automation designed to view and alter information retrieved from the 
 
 <li>If you had answered yes to view employee details, you will be given a full list of existing employees.</li>
 <details><summary>Screenshots</summary>
-<img src="docs/features/viewstaffvalid">
+<img src="docs/features/viewstaffvalid.jpg">
 </details>
 </ul>
 
