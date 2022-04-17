@@ -55,11 +55,10 @@ Developer: Sean Reid
 ### User Requirements and Expectations
 
 <ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Login equired</li>
+<li>Program should run without errors</li>
+<li>Instructions and options should be clearly conveyed</li>
+<li>Option to return to the start</li>
 </ul>
 
 ## User Stories
