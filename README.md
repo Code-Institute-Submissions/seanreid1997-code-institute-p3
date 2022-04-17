@@ -69,8 +69,8 @@ Developer: Sean Reid
 2. I want to be able register my login credentials.
 3. I want to be able to view data on the company spreadsheet.
 4. I want to be able to manipulate data on the company spreadsheet.
-5. I want to be able to add and remove worksheets.
-6. I want to be able retrieve pre-caluculated financial data.
+5. I want to be able to return to menu.
+6. I want to the data to be consistent.
 7. I want to be able to return to the start/exit.
 
 ### As A Returning User:
@@ -85,7 +85,7 @@ Developer: Sean Reid
 12. I want users to be able to manipulate spreadsheet. 
 13. I want users to interact with the program hasslefree.
 14. I want users to receive error messages and the program to provide solutions.
-15. I want users to be able to return to the menu or start.
+15. I want users to be able to return to the start.
 
 ### Description
 
@@ -202,18 +202,10 @@ This is an automation designed to view and alter information retrieved from the 
 
 <ul>
 <li>As the program begins you will be given a choice on what services you would like to use.</li>
-<details><summary>Screenshots</summary>
-<img src="#">
-</details>
-
 <li>You can either choose to add, remove, or simply view an employees details for reviewing.</li>
-<details><summary>Screenshots</summary>
-<img src="#">
-</details>
-
 <li>You will be given a list of choices.</li>
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/features/menu.jpg">
 </details>
 </ul>
 
@@ -222,12 +214,12 @@ This is an automation designed to view and alter information retrieved from the 
 <ul>
 <li>Should you choose to add an employee to the database you will have to input their detais.</li>
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/features/featureaddstaff.jpg">
 </details>
 
 <li>Once you have entered the employees details, they should appear on the spreadsheet.</li>
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/features/addstaffvalid.jpg">
 </details>
 </ul>
 
@@ -249,12 +241,12 @@ This is an automation designed to view and alter information retrieved from the 
 <ul>
 <li>To view the employees you need only answer yes to the relvant question.</li>
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/features/featureviewstaff.jpg">
 </details>
 
 <li>If you had answered yes to view employee details, you will be given a full list of existing employees.</li>
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/features/viewstaffvalid">
 </details>
 </ul>
 
@@ -263,12 +255,12 @@ This is an automation designed to view and alter information retrieved from the 
 <ul>
 <li>You will be given the option to create a worksheet.</li>
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/features/featurecreate.jpg">
 </details>
 
 <li>Once the name of the worksheet is entered, the worksheet will appear in spreadsheet.</li>
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/features/createvalid.jpg">
 </details>
 </ul>
 
@@ -291,12 +283,13 @@ This is an automation designed to view and alter information retrieved from the 
 <ul>
 <li>You will be given a choice to on where to return to.</li>
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/features/featurereturn.jpg">
 </details>
 
 <li>Once you have selected your choice, you will be redirected to the selected page.</li>
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/features/menu.jpg">
+<img src="docs/features/login.jpg">
 </details>
 </ul>
 
@@ -368,29 +361,30 @@ The website was tested on the browsers via:
 <img src="docs/userstorytest/addstaffsheet.jpg">
 </details>
 
-5. I want to be able to remove data on the company spreadsheet.
+5. I want to be able to return to menu.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Remove data on worksheet | User input is removed from worksheet | Data should be removed from worksheet | Works as expected |
+| Return to menu | Select appropriate option | User is redirected to menu | Works as expected |
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/userstorytest/returnuser.jpg">
 </details>
 
-6. I want to be able retrieve pre-caluculated financial data.
+6. I want to the data to be consistent.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Data should be calculated beforhand | User requsets summary data | User should recieve pre-calculated data |  |
+| Data should be consistent with worksheet | User requsets data | User should recieveaccurate data | Works as expected |
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/userstorytest/addstaff.jpg">
+<img src="docs/userstorytest/addstaffsheet.jpg">
 </details>
 
 7. I want to be able to return to the start/exit.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| Return options | Select return home | User is redirected to home page | Works as expected |
 <details><summary>Screenshots</summary>
 <img src="docs/userstorytest/returnuser.jpg">
 </details>
@@ -419,7 +413,7 @@ The website was tested on the browsers via:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| Adequate spacing | Navigate program | Program is cluster free | works as expected |
 <details><summary>Screenshots</summary>
 <img src="docs/userstorytest/spacingtest.jpg">
 <p>Questions are spaced</p>
@@ -463,7 +457,7 @@ The website was tested on the browsers via:
 <img src="docs/userstorytest/errors.jpg">
 </details>
 
-15.  I want users to be able to return to the menu or start.
+15.  I want users to be able to return to the start.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -535,6 +529,8 @@ The website was tested on the browsers via:
  <ul>
  <li>I'd like to thank My mentor Mo Shami for his excellent mentorship.</li>
  <li>I'd also like to thank the Code Institute staff for their continued support.</li>
+ <li>Few underlying issues</li>
+ <li>At the time of submission Heroku was having server errors regarding connection to Github therefore any updated code may not have been updated at time of submission.</li>
  </ul>
 
  [Return To Top](#Tech-Company-Ltd-Database)
