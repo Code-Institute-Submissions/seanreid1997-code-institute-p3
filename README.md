@@ -335,7 +335,7 @@ The website was tested on the browsers via:
 |-------------|------------|---------------------|-------------------|
 | Program security | Program requests user to login | User must login before continuing | Works as expected |
 <details><summary>Screenshots</summary>
-<img src="docs/userstorytest/">
+<img src="docs/userstorytest/secureuser.jpg">
 </details>
 
 2. I want to be able register my login credentials.
@@ -344,7 +344,8 @@ The website was tested on the browsers via:
 |-------------|------------|---------------------|-------------------|
 | Register new user | Program registers user based on user input | User input updated to 'Login' worksheet | Works as expected |
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/userstorytest/registeruser.jpg">
+<img src="docs/userstorytest/registersheet.jpg">
 </details>
 
 3. I want to be able to view data on the company spreadsheet.
@@ -353,7 +354,8 @@ The website was tested on the browsers via:
 |-------------|------------|---------------------|-------------------|
 | View spreadsheet data | Retrieve list of data form worksheets | User receives list of data | Works as expected |
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/userstorytest/viewuser.jpg">
+<img src="docs/userstorytest/employeesheet.jpg">
 </details>
 
 4. I want to be able to add data on the company spreadsheet.
@@ -362,7 +364,8 @@ The website was tested on the browsers via:
 |-------------|------------|---------------------|-------------------|
 | Add new data to worksheet | User input is appended to worksheet | New data should be appended successfully| Works as expected |
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/userstorytest/addstaff.jpg">
+<img src="docs/userstorytest/addstaffsheet.jpg">
 </details>
 
 5. I want to be able to remove data on the company spreadsheet.
@@ -389,7 +392,7 @@ The website was tested on the browsers via:
 |-------------|------------|---------------------|-------------------|
 |  |  |  |  |
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/userstorytest/returnuser.jpg">
 </details>
 
 8. I expect to be able to login using my pre-registered credentials.
@@ -398,7 +401,8 @@ The website was tested on the browsers via:
 |-------------|------------|---------------------|-------------------|
 | User login | Program requests user login | User must login before continuing | Works as expected |
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/userstorytest/login.jpg">
+<img src="docs/userstorytest/registersheet.jpg">
 </details>
 
 9. I expect the program to work the same regardless of browser or device.
