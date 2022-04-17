@@ -62,7 +62,6 @@ def options():
         time.sleep(0.3)
 
     elif user_input_remove == '2':
-        print('\nThank you for using our services.\n')
         time.sleep(0.5)
 
     else:
