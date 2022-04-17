@@ -131,7 +131,7 @@ This is an automation designed to view and alter information retrieved from the 
 #### Manage Finance
 
 <ul>
-<li>This option allows the user to review the data in the financial worksheet.</li>
+<li>This option allows the user to review the data in the 'Finance' worksheet.</li>
 <li>This data in question represents the income compared to the expenditure.</li>
 </ul>
 
