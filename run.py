@@ -25,8 +25,8 @@ init(autoreset=True)
 
 def welcome_message():
     """
-    Prints out a welcome message at the begining
-    of the program
+    Function that prints out a welcome message
+    at the begining of the program
     """
     print(BORDER)
     print(BORDER)

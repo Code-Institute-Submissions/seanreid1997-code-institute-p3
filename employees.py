@@ -32,7 +32,6 @@ def options():
         time.sleep(0.3)
     elif user_input_view == '2':
         time.sleep(0.2)
-        pass
 
     else:
         validate_choice(user_input_view)
@@ -47,7 +46,6 @@ def options():
         time.sleep(0.3)
     elif user_input_add:
         time.sleep(0.2)
-        pass
 
     else:
         validate_choice(user_input_add)
