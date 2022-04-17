@@ -82,10 +82,10 @@ Developer: Sean Reid
 
 10. I want the program to be well spaced in managment.
 11. I want the program to be protected and require authorisation before it begins.
-12. I want users to be able to manipulate spreadsheet data. 
+12. I want users to be able to manipulate spreadsheet. 
 13. I want users to interact with the program hasslefree.
 14. I want users to receive error messages and the program to provide solutions.
-15. I want the program to loop to the start once users have finished.
+15. I want users to be able to return to the menu or start.
 
 ### Description
 
@@ -411,7 +411,8 @@ The website was tested on the browsers via:
 |-------------|------------|---------------------|-------------------|
 | Browser compatibility | Program works on various browsers | Program should work on various browsers | Works as expected |
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/userstorytest/chrometest.jpg">
+<img src="docs/userstorytest/edgetest.jpg">
 </details>
 
 10. I want the program to be well spaced in managment.
@@ -420,7 +421,8 @@ The website was tested on the browsers via:
 |-------------|------------|---------------------|-------------------|
 |  |  |  |  |
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/userstorytest/spacingtest.jpg">
+<p>Questions are spaced</p>
 </details>
 
 11. I want the program to be protected and require authorisation before it begins.
@@ -429,16 +431,17 @@ The website was tested on the browsers via:
 |-------------|------------|---------------------|-------------------|
 | Program security | Authorisation required | User must login before proceeding | Works as expected |
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/userstorytest/secureuser.jpg">
 </details>
 
-12. I want users to be able to manipulate spreadsheet data. 
+12. I want users to be able to manipulate spreadsheet. 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Data Manipulation | Data is viewed and edited by user | User can manipulate data at will | works as expected |
+| Sheet Manipulation | Create worksheet | User can create additional worksheets | works as expected |
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/userstorytest/createsheet.jpg">
+<img src="docs/userstorytest/createdsheet.jpg">
 </details>
 
 13. I want users to interact with the program hasslefree.
@@ -447,7 +450,8 @@ The website was tested on the browsers via:
 |-------------|------------|---------------------|-------------------|
 | Navigation | Run program | Program should run without complications | Works as expected |
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/userstorytest/login.jpg">
+<img src="docs/userstorytest/menuuser.jpg">
 </details>
 
 14. I want users to receive error messages and provide solutions.
@@ -456,16 +460,16 @@ The website was tested on the browsers via:
 |-------------|------------|---------------------|-------------------|
 | Error messages | Enter invalid input | Raise error and provide solution | Works as expected |
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/userstorytest/errors.jpg">
 </details>
 
-15. I want the program to loop to the start once users have finished.
+15.  I want users to be able to return to the menu or start.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Return options | Select appropriate option | Return to home | Works as expected |
 <details><summary>Screenshots</summary>
-<img src="#">
+<img src="docs/userstorytest/returnuser.jpg">
 </details>
 
 ## Bugs
@@ -482,6 +486,8 @@ The website was tested on the browsers via:
 <ul>
 <li>When user enters incorrect username, program asks for password twice.</li>
 <li>Colors do not appear in deployed program.</li>
+<li>Due to heroku server errors, some features may not be up to date.</li>
+<li>Delete functions return errors.</li>
 </ul>
 
 ## Deployment

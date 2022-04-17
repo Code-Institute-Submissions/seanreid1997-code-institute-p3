@@ -20,17 +20,9 @@ def get_finance_data():
     finance worksheet
     """
     print('1.View all financial data')
-    print('2.View last entry')
     finance_user_input = input('\n')
 
     if finance_user_input == '1':
         full_statement = SHEET.worksheet('Finance').get_all_values()
         for data in full_statement:
             print(data)
-
-# def monthly_profit():
-    # """
-    # Function that gets values from the 2 columns
-    # in 'Finance' worksheet and subtracts
-    # the latter from the first. (column 1 - column 2)
-    # """
